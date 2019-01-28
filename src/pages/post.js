@@ -2,15 +2,15 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout' 
 
-const PostTemplate = ({ data }) => (
+const PostTemplate = () => (
   <Layout>
-    <h1>{data.strapiPost.title}</h1>
-    <p>{data.strapiPost.content}</p>
+    <h1>Test</h1>
+    <p>Ah!</p>
   </Layout>
 )
 
 export default PostTemplate
-
+{/*
 export const query = graphql`
   query PostTemplate($id: String!) {
     strapiPost(id: {eq: $id}) {
@@ -20,3 +20,4 @@ export const query = graphql`
     }
   }
 `
+*/}

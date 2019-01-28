@@ -8,14 +8,16 @@ import { Link, graphql } from 'gatsby';
 const blogStyle = {
   padding: '20px'
 };
-const BlogPage = ({data}) => (
+const BlogPage = () => (
   <Layout>
     <SEO title="Blog" keywords={[`UCI`, `Solar`, `Car`]} />
     <div>
       <section className="section">
         <div className="container">
           <h1 class="title">Blog posts</h1>
-          <ul>
+
+
+          {/*<ul>
             {data.allStrapiPost.edges.map(document => (
               <Link to={`/${document.node.id}`}>
               <li key={document.node.id} style={blogStyle}>
@@ -32,7 +34,7 @@ const BlogPage = ({data}) => (
               </li>
               </Link>
             ))}
-          </ul>
+          </ul>*/}
         </div>
       </section>
     </div>
@@ -41,6 +43,8 @@ const BlogPage = ({data}) => (
 
 export default BlogPage
 
+
+{/*
 export const pageQuery = graphql`
   query IndexQuery {
     allStrapiPost(
@@ -63,3 +67,4 @@ export const pageQuery = graphql`
       }
     }
   }`
+  */}
