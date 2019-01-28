@@ -71,3 +71,6 @@ yarn-error.log
 #Strapi Plugins
 plugins
 solar-blog
+
+#CSS
+src/css
