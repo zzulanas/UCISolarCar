@@ -3,7 +3,7 @@
 This is a website for UCI Solar Car
 
 Built with:
-* [GatsbyJS](https://www.gatsbyjs.org/)
+* [GatsbyJS](https://www.gatsbyjs.org/) (Make sure you have the CLI installed ```npm install -g gatsby-cli```)
 * [Bulma](https://bulma.io/)
 * [Strapi](https://strapi.io/) (using MongoDB)
 * [Animejs](https://animejs.com/)
