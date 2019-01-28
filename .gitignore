@@ -68,9 +68,8 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 
-#Strapi Plugins
-plugins
-solar-blog
+#blogs
+blog
 
 #CSS
 src/css
