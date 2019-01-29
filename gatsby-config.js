@@ -21,6 +21,7 @@ module.exports = {
         name: "blogs",
       },
     },
+    'gatsby-plugin-catch-links',
     'gatsby-transformer-remark',
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

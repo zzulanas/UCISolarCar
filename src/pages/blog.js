@@ -3,68 +3,60 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Img from 'gatsby-image'
-import { Link, graphql } from 'gatsby';
+import { Link, graphql } from 'gatsby'
+import anime from 'animejs'
 
 const blogStyle = {
-  padding: '20px'
-};
-const BlogPage = () => (
-  <Layout>
-    <SEO title="Blog" keywords={[`UCI`, `Solar`, `Car`]} />
-    <div>
-      <section className="section">
-        <div className="container">
-          <h1 class="title">Blog posts</h1>
+  padding: '20px',
+}
 
+export default function BlogPage({ data }) {
+  const { edges: posts } = data.allMarkdownRemark
 
-          {/*<ul>
-            {data.allStrapiPost.edges.map(document => (
-              <Link to={`/${document.node.id}`}>
-              <li key={document.node.id} style={blogStyle}>
-                <h1 className="title">
-                  {document.node.title}
-                </h1>
-                <h2 className="subtitle">
-                  {document.node.date}
-                </h2>
-                <Img className="image" fixed={document.node.cover.childImageSharp.fixed}/>
-                <div className="content">
-                  <p>{document.node.content}</p>
-                </div>
-              </li>
-              </Link>
-            ))}
-          </ul>*/}
-        </div>
-      </section>
-    </div>
-  </Layout>
-)
+  return (
+    <Layout>
+      <SEO title="Blog" keywords={[`UCI`, `Solar`, `Car`]} />
+      <div className="blog-posts">
+        <section className="section">
+          <div className="container">
+            <h1 class="title" id="page-title">Blog posts</h1>
+            {posts
+              .filter(post => post.node.frontmatter.title.length > 0)
+              .map(({ node: post }) => {
+                return (
+                  <div className="blog-post-preview" key={post.id}>
+                    <Link to={post.frontmatter.path}>
+                      <h1 className="title">{post.frontmatter.title}</h1>
+                      <h2 className="subtitle">{post.frontmatter.date}</h2>
+                    </Link>
+                    <p>{post.excerpt}</p>
+                  </div>
+                )
+              })}
+          </div>
+        </section>
+      </div>
+    </Layout>
+  )
+}
 
-export default BlogPage
-
-
-{/*
 export const pageQuery = graphql`
   query IndexQuery {
-    allStrapiPost(
-      sort: { fields: [date], order:DESC}
-    ) {
+    allMarkdownRemark {
       edges {
         node {
-          id
-          cover {
-            childImageSharp {
-              fixed(width: 200, height: 125) {
-                ...GatsbyImageSharpFixed
-              }
-            }
+          html
+          headings {
+            depth
+            value
           }
-          title
-          content
-          date(formatString: "MMMM Do, YYYY")
+          frontmatter {
+            title
+            path
+            date(formatString: "MMMM Do, YYYY")
+          }
         }
       }
     }
-  }`
-  */}
+  }
+`

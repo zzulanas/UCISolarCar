@@ -6,6 +6,12 @@ backend:
 media_folder: static/assets
 public_folder: assets
 
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: dard8v51n
+    api_key: 236314585114144
+
 collections:
   - name: blog
     label: Blog
