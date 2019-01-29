@@ -68,8 +68,5 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 
-#blogs
-blog
-
 #CSS
 src/css
