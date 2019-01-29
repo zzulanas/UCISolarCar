@@ -5,7 +5,7 @@ This is a website for UCI Solar Car
 Built with:
 * [GatsbyJS](https://www.gatsbyjs.org/) (Make sure you have the CLI installed ```npm install -g gatsby-cli```)
 * [Bulma](https://bulma.io/)
-* [Strapi](https://strapi.io/) (using MongoDB)
+* [Netlify & NetlifyCMS](https://www.netlify.com/)
 * [Animejs](https://animejs.com/)
 
 If continuing development work:
@@ -18,5 +18,3 @@ gatsby develop
 ```
 
 Now the website should be up and running on localhost:8000
-
-*Note:* Strapi and therefor blog posts are not synced yet, more on that later
