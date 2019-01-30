@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import Navbar from './navbar'
 import '../css/bulma.css'
+import '../css/layout.css'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -26,14 +27,15 @@ const Layout = ({ children }) => (
             padding: `0px 1.0875rem 1.45rem`,
             paddingTop: 0,
           }}
-        >
+        className = "wrapper">
           {children}
-          <footer className="footer">
+        <div className="push"></div>
+        </div>
+        <footer className="footer">
             © {new Date().getFullYear()}, Built with
             {` `}
             <a href="https://www.gatsbyjs.org">Gatsby</a>
           </footer>
-        </div>
       </>
     )}
   />
