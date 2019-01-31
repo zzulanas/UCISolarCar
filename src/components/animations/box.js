@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import posed, { PoseGroup } from 'react-pose'
+//https://www.youtube.com/watch?v=BSbVB14riQI
+//Watch this
 
 const Box = posed.div({
   visible: { opacity: 1},
