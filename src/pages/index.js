@@ -1,15 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import posed from 'react-pose'
+import posed, { PoseGroup } from 'react-pose'
 
 import Layout from '../components/layout'
 import Image from '../components/image'
 import SEO from '../components/seo'
-
-const Box = posed.div({
-  visible: { opacity: 1 },
-  hidden: { opacity: 0 },
-})
 
 const IndexPage = () => (
   <Layout>
@@ -30,12 +25,6 @@ const IndexPage = () => (
             consequat neque. Praesent eu nisi id dui mollis auctor. Proin
             sollicitudin convallis facilisis. Suspendisse ut sem turpis.
           </p>
-          return (
-          <Box
-            className="box"
-            pose={this.state.isVisible ? 'visible' : 'hidden'}
-          />
-          );
         </div>
       </section>
       <section className="section">
