@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import posed, { PoseGroup } from 'react-pose'
 
+import Example from '../components/animations/example'
 import Layout from '../components/layout'
 import Image from '../components/image'
 import SEO from '../components/seo'
@@ -25,6 +26,7 @@ const IndexPage = () => (
             consequat neque. Praesent eu nisi id dui mollis auctor. Proin
             sollicitudin convallis facilisis. Suspendisse ut sem turpis.
           </p>
+          <Example pose="visible" name="test"/>
         </div>
       </section>
       <section className="section">
