@@ -4,3 +4,15 @@
     background: #ff1c68;
     transform-origin: 50% 50%;
 }
+
+.bgtitle {
+    font-size: 150px;
+    z-index: 0;
+    opacity: 30%;
+    position: absolute;
+}
+
+.stack {
+    z-index: 100;
+    position: relative;
+}

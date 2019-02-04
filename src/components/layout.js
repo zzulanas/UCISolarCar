@@ -7,6 +7,7 @@ import Footer from './footer'
 import '../css/bulma.css'
 import '../css/layout.css'
 
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -22,12 +23,6 @@ const Layout = ({ children }) => (
       <>
         <Navbar/>
         <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: 1080,
-            padding: `0px 1.0875rem 1.45rem`,
-            paddingTop: 0,
-          }}
         className = "wrapper">
           {children}
         <div className="push"></div>
