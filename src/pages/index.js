@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import posed, { PoseGroup } from 'react-pose'
-import PageTransition from 'gatsby-plugin-page-transitions';
 
 import BGTitle from '../components/animations/bgtitle'
 import Layout from '../components/layout'
