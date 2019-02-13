@@ -5,7 +5,6 @@ Used as a template for all blog posts
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
-import PageTransition from 'gatsby-plugin-page-transitions';
 
 export default function PostTemplate({ data }) {
   const { markdownRemark } = data // data.markdownRemark holds our post data
@@ -15,14 +14,12 @@ export default function PostTemplate({ data }) {
   };
   return (
     <Layout>
-      <PageTransition>
         <h1 className="title" style={blogStyle}>{frontmatter.title}</h1>
         <h2 className="subtitle">{frontmatter.date}</h2>
         <div
           className="content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
-      </PageTransition>
     </Layout>
   )
 }
