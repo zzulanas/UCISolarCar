@@ -21,13 +21,13 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Navbar/>
+        <Navbar />
         <div
-        className = "wrapper">
+          className="wrapper">
           {children}
-        <div className="push"></div>
+          <div className="push"></div>
         </div>
-        <Footer/>
+        <Footer />
       </>
     )}
   />

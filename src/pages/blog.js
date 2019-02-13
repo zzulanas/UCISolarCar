@@ -1,4 +1,5 @@
 import React from 'react'
+import PageTransition from 'gatsby-plugin-page-transitions';
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import posed, { PoseGroup } from 'react-pose'
+import PageTransition from 'gatsby-plugin-page-transitions';
 
 import BGTitle from '../components/animations/bgtitle'
 import Layout from '../components/layout'
@@ -14,7 +15,7 @@ const testStyle = {
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`UCI`, `Solar`, `Car`]} />
-    <BGTitle pose="visible" name='We are UCI Solar Car'/>
+    <BGTitle pose="visible" name='We are UCI Solar Car' />
     <div className="stack">
       <section className="section">
         <div className="container">
@@ -45,6 +46,7 @@ const IndexPage = () => (
       </section>
     </div>
   </Layout>
+
 )
 
 export default IndexPage
