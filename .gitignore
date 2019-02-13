@@ -69,4 +69,4 @@ yarn-error.log
 .yarn-integrity
 
 #CSS
-src/css
+src/css/bulma.css
