@@ -4,7 +4,6 @@ import posed, { PoseGroup } from 'react-pose'
 
 import BGTitle from '../components/animations/bgtitle'
 import Layout from '../components/layout'
-import Image from '../components/image'
 import SEO from '../components/seo'
 import '../components/animations/animations.css'
 
@@ -14,10 +13,10 @@ const testStyle = {
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`UCI`, `Solar`, `Car`]} />
-    <BGTitle pose="visible" name='We are UCI Solar Car' />
     <div className="stack">
       <section className="section">
         <div className="container">
+        <h1 className="title"><i>We are UCI Solar Car</i></h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed
             diam in eros ultricies laoreet. Sed mattis ex et ante mattis, non

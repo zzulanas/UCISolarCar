@@ -1,12 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
+import Helmet from 'react-helmet'
 
 import Navbar from './navbar'
 import Footer from './footer'
+import favicon from '../../static/favicon1.png'
 import '../css/bulma.css'
 import '../css/layout.css'
-
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -21,11 +22,14 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
+        <Helmet>
+          <meta name="description"/>
+          <link rel="shortcut icon" type="image/png" href={favicon}/>
+        </Helmet>
         <Navbar />
-        <div
-          className="wrapper">
+        <div className="wrapper">
           {children}
-          <div className="push"></div>
+          <div className="push" />
         </div>
         <Footer />
       </>

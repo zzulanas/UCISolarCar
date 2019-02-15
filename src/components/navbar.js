@@ -1,5 +1,7 @@
 import React from "react"
 import { Link } from "gatsby" 
+import Img from 'gatsby-image'
+import logo from '../../static/favicon1.png'
 import anime from 'animejs';
 
 const Navbar= () => ({
@@ -8,7 +10,7 @@ const Navbar= () => ({
         <nav className="navbar has-shadow" role="navigation">
           <div className="navbar-brand">
             <Link className="navbar-item" to="./">
-              <h1>UCI SOLAR CAR LOGO</h1>
+              <Img fixed={logo}/>
             </Link>
           </div>
             <Link to="/" className="navbar-item">Home</Link>
