@@ -27,7 +27,8 @@ $fullhd-enabled: false;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
-
+//Change navbar item height
+$navbar-item-img-max-height: 5rem;
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/utilities/_all.sass";
 @import "../node_modules/bulma/sass/base/_all.sass";

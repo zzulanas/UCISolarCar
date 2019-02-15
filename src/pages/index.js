@@ -2,10 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import posed, { PoseGroup } from 'react-pose'
 
-import BGTitle from '../components/animations/bgtitle'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import '../components/animations/animations.css'
 
 const testStyle = {
   opacity: '30%'
@@ -16,7 +14,7 @@ const IndexPage = () => (
     <div className="stack">
       <section className="section">
         <div className="container">
-        <h1 className="title"><i>We are UCI Solar Car</i></h1>
+        <h1 className="title is-1"><i>We are UCI Solar Car</i></h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed
             diam in eros ultricies laoreet. Sed mattis ex et ante mattis, non
@@ -94,7 +92,7 @@ const IndexPage = () => (
           Nulla quis nulla risus.
         </div>
       </section>
-      
+
     </div>
   </Layout>
 
