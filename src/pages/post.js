@@ -8,14 +8,14 @@ import Layout from '../components/layout'
 
 export default function PostTemplate({ data }) {
   const { markdownRemark } = data // data.markdownRemark holds our post data
-  const { frontmatter, html } = markdownRemark
+  const { html } = markdownRemark
   const blogStyle = {
     paddingTop: '20px',
   };
   return (
     <Layout>
-        <h1 className="title" style={blogStyle}>{frontmatter.title}</h1>
-        <h2 className="subtitle">{frontmatter.date}</h2>
+        <h1 className="title" style={blogStyle}>{markdownRemark.frontmatter.title}</h1>
+        <h2 className="subtitle">{markdownRemark.frontmatter.date}</h2>
         <div
           className="content"
           dangerouslySetInnerHTML={{ __html: html }}
