@@ -9,6 +9,15 @@ html, body {
   /* But also accounting for potential margin-bottom of last child */
   margin-bottom: -50px;
 }
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
 .footer{
     height: 50px;
     background-color: rgb(204, 224, 253);

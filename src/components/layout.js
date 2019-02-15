@@ -22,16 +22,18 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Helmet>
-          <meta name="description"/>
-          <link rel="shortcut icon" type="image/png" href={favicon}/>
-        </Helmet>
-        <Navbar />
-        <div className="wrapper">
-          {children}
-          <div className="push" />
+        <div className="Site">
+          <Helmet>
+            <meta name="description" />
+            <link rel="shortcut icon" type="image/png" href={favicon} />
+          </Helmet>
+          <Navbar />
+          <div className="Site-content">
+            {children}
+            <div className="push" />
+          </div>
+          <Footer />
         </div>
-        <Footer />
       </>
     )}
   />

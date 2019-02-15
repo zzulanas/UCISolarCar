@@ -1,16 +1,20 @@
-import React from "react"
+import React, { Component } from "react"
 import { Link } from "gatsby" 
-import Img from 'gatsby-image'
-import logo from '../../static/favicon1.png'
+import logo from '../../static/favicon2.png'
 import anime from 'animejs';
 
-const Navbar= () => ({
-    render: function() {
+const logoStyle = {
+  height: '28px', 
+  width: '40px',
+  padding: 'none'
+}
+export default class Navbar extends Component {
+    render () {
       return (
         <nav className="navbar has-shadow" role="navigation">
           <div className="navbar-brand">
             <Link className="navbar-item" to="./">
-              <Img fixed={logo}/>
+              <img style={logoStyle} src={logo} alt="UCI Solar Car"/>
             </Link>
           </div>
             <Link to="/" className="navbar-item">Home</Link>
@@ -21,6 +25,5 @@ const Navbar= () => ({
         </nav>
       );
     }
-  });
+  }
 
-export default Navbar

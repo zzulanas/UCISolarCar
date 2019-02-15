@@ -14,6 +14,13 @@ module.exports = {
         name: "blogs",
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/static`,
+      }
+    },
     'gatsby-plugin-catch-links',
     'gatsby-transformer-remark',
     `gatsby-transformer-sharp`,
