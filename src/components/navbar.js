@@ -20,17 +20,6 @@ const RouteContainer = posed.div({
   exit: { opacity: 0 }
 });
 
-const PosedRouter = ({ children }) => (
-  <Location>
-    {({ location }) => (
-      <PoseGroup>
-        <RouteContainer key={location.key}>
-          <Router location={location}>{children}</Router>
-        </RouteContainer>
-      </PoseGroup>
-    )}
-  </Location>
-);
 
 
 export default class Navbar extends Component {
@@ -60,12 +49,15 @@ export default class Navbar extends Component {
           </span>
         </div>
         <div className={ this.state.burgerOpen ? 'navbar-menu is-active' : 'navbar-menu'} id="navMenu">
-          <div class="navbar-end">
+          <div className="navbar-end">
             <Link to="/" className="navbar-item" activeStyle = {activeNavStyle}>
               Home
             </Link>
             <Link to="/blog/" className="navbar-item" activeStyle = {activeNavStyle}>
               Blog
+            </Link>
+            <Link to="/teams/" className="navbar-item" activeStyle = {activeNavStyle}>
+              Team
             </Link>
             <Link to="/electrical/" className="navbar-item" activeStyle = {activeNavStyle}>
               Electrical

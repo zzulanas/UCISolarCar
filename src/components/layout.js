@@ -2,8 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import Helmet from 'react-helmet'
-
-import Navbar from './navbar'
+import Navbar from '../components/navbar'
 import Footer from './footer'
 import favicon from '../../static/favicon1.png'
 import '../css/bulma.css'
@@ -27,7 +26,7 @@ const Layout = ({ children }) => (
             <meta name="description" />
             <link rel="shortcut icon" type="image/png" href={favicon} />
           </Helmet>
-          <Navbar />
+          <Navbar/>
           <div className="Site-content">
             {children}
             <div className="push" />
