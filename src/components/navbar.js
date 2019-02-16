@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import { Link } from 'gatsby'
 import logo from '../../static/favicon2.png'
-import anime from 'animejs'
+import { Router, Link, Location } from '@reach/router';
+import posed, { PoseGroup } from 'react-pose';
 
 const logoStyle = {
   height: '3rem',
@@ -13,6 +13,24 @@ const activeNavStyle = {
   textDecoration: 'underline',
   textDecorationColor: 'blue'
 }
+
+//React Pose Page Transitions
+const RouteContainer = posed.div({
+  enter: { opacity: 1, delay: 300, beforeChildren: 300 },
+  exit: { opacity: 0 }
+});
+
+const PosedRouter = ({ children }) => (
+  <Location>
+    {({ location }) => (
+      <PoseGroup>
+        <RouteContainer key={location.key}>
+          <Router location={location}>{children}</Router>
+        </RouteContainer>
+      </PoseGroup>
+    )}
+  </Location>
+);
 
 
 export default class Navbar extends Component {

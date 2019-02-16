@@ -10,7 +10,7 @@ $uci-grey: #a09d9a;
 $uci-cyan: #6aa2b8;
 $beige-light: #D0D1CD;
 $beige-lighter: #EFF0EB;
-$uci-yellow: #f7eb5f;
+$uci-yellow: #FFFFD5;
 $footer-background-color: $uci-grey;
 
 // Update Bulma's global variables
@@ -27,8 +27,10 @@ $fullhd-enabled: false;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
-//Change navbar item height
+
+//Change navbar item height and bg color
 $navbar-item-img-max-height: 5rem;
+$navbar-box-shadow-color: $beige-light;
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/utilities/_all.sass";
 @import "../node_modules/bulma/sass/base/_all.sass";
@@ -40,3 +42,4 @@ $navbar-item-img-max-height: 5rem;
 @import "../node_modules/bulma/sass/layout/hero.sass";
 @import "../node_modules/bulma/sass/layout/section.sass";
 @import "../node_modules/bulma/sass/elements/box.sass";
+@import "../node_modules/bulma/sass/grid/_all.sass";
