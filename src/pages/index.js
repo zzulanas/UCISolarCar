@@ -22,6 +22,10 @@ const rightTitleStyle = {
   float: 'right',
 }
 
+const mainTitleStyle = {
+  fontSize: '500%',
+}
+
 
 const Home = ({ data }) => (
   <Layout>
@@ -29,7 +33,7 @@ const Home = ({ data }) => (
     <div className="stack">
       <section className="section is-medium">
         <div className="container">
-          <h1 className="title is-1">
+          <h1 className="title is-1" style={mainTitleStyle}>
             <i>
               <strong>We are UCI Solar Car</strong>
             </i>
@@ -37,12 +41,12 @@ const Home = ({ data }) => (
           <div className="columns">
             <div className="column is-one-third">
               <Section>
-                <P className="subtitle is-4">
+                <P className="content is-medium">
                   Driven by the aspiration of building a solar car, a group of
                   mechanical and electrical engineering students assembled in
                   late 2016, starting the SolEaters team at UCI. The team
                   officially started in March 2017 after receiving professional
-                  advisement from professors and
+                  advisement from professors and mentors
                 </P>
               </Section>
             </div>
@@ -74,7 +78,7 @@ const Home = ({ data }) => (
               <img src={grandprix} />
             </div>
             <div className="column is-one-third">
-              <P>
+              <P className="content is-medium">
                 Our team contains thirty two students from majors all across the
                 board. We're currently aiming to compete in the 2020 Formula Sun
                 Grand Prix. We will design and build a functional solar car that
@@ -99,7 +103,7 @@ const Home = ({ data }) => (
           </div>
           <div className="columns">
             <div className="column is-one-third">
-              <P>
+              <P className="content is-medium">
                 Our entire car, with all components and driver included, weighs
                 in at around 500 pounds. With our lightweight body and
                 aerodynamic shape, we will be able to drive halfway across the
