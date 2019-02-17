@@ -10,10 +10,9 @@ class TeamMember extends Component {
     render() {
         return (
             <div className="card">
-                <h1 className="has-text-centered">Test</h1>
-                <figure className="image is-128x128 card-image" style={customAvatarStyle}>
-                    <img className="is-rounded" src={this.props.imglink}/>
-                </figure>
+                <h1 className="title is-4 has-text-centered">{this.props.name}</h1>
+                <h1 className="subtitle is-5 has-text-centered">{this.props.description}</h1>        
+                <img className="is-rounded" src={this.props.imglink}/>
             </div>
         );
     }

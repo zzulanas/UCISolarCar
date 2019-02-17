@@ -4,7 +4,7 @@ import Link from 'gatsby'
 
 import team_pic from '../../static/team_pic.png'
 import grandprix from '../../static/grandprix.jpg'
-import car from '../../static/pic3.jpg'
+import car from '../../static/car.jpg'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 

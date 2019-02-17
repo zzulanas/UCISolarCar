@@ -17,16 +17,36 @@ const P = posed.p({
 const Teams = () => (
   <Layout>
     <SEO title="Our Team" keywords={[`UCI`, `Solar`, `Car`]} />
-    <div>
-      <Container>
-        <section className="section">
-          <div className="container">
-            <h1 className="title has-text-centered">Our Team</h1>
-            <TeamMember imglink="https://previews.123rf.com/images/gstockstudio/gstockstudio1502/gstockstudio150200424/36811165-choosing-the-best-ingredient-for-his-meal-thoughtful-young-african-chef-in-white-uniform-holding-bro.jpg" />
+    <section className="section">
+      <div className="container">
+        <h1 className="title has-text-centered">Our Team</h1>
+      </div>
+      <div className="container">
+        <div className="columns">
+          <div className="column">
           </div>
-        </section>
-      </Container>
-    </div>
+          <div className="column">
+          <TeamMember name="Lizette Nguyen" description="Project Manager" imglink="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiYnL-azcHgAhVFpoMKHWGdCeUQjRx6BAgBEAU&url=https%3A%2F%2Fwww.canstockphoto.com%2Fbusinessman-ready-to-commit-suicide-8557263.html&psig=AOvVaw07IRl1betGffoKnk3GlrQW&ust=1550452627863020" />
+          </div>
+          <div className="column">
+          </div>
+        </div>
+        <div className="columns">
+          <div className="column">
+            <TeamMember name="Lizette Nguyen" description="Project Manager" imglink="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiYnL-azcHgAhVFpoMKHWGdCeUQjRx6BAgBEAU&url=https%3A%2F%2Fwww.canstockphoto.com%2Fbusinessman-ready-to-commit-suicide-8557263.html&psig=AOvVaw07IRl1betGffoKnk3GlrQW&ust=1550452627863020" />
+          </div>
+          <div className="column">
+            <TeamMember />
+          </div>
+          <div className="column">
+            <TeamMember />
+          </div>
+          <div className="column">
+            <TeamMember />
+          </div>
+        </div>
+      </div>
+    </section>
   </Layout>
 )
 
