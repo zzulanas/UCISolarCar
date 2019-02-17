@@ -24,7 +24,7 @@ const Electrical = () => (
           <p>
             The electrical team is led by Gilberto Garcia, a 3rd year Electrical
             Engineering student. The electrical team is divided into four
-            subteams: Battery, Motor Solar, and Telemetry. Their goal is to
+            subteams: battery, motor, telemetry, and solar. Their goal is to
             design the electrical system of our car.
           </p>
         </div>
@@ -35,11 +35,10 @@ const Electrical = () => (
           <div className="columns">
             <div className="column">
               <p>
-                Our team is finishing off the design of the battery pack. This
-                includes designing it in CAD programs and integrating it into the main electrical
-                system. This is important because the battery will serve as the
-                cars energy storage system. We
-                are implementing 416 Li-ion Panasonic 18650 NCRBE's manufactured
+                The battery team is responsible for the design of the battery pack. This
+                includes a CAD model and integration into the main electrical
+                system. The battery will serve as the car's energy storage system. We
+                are implementing 416 Li-ion Panasonic 18650 NCRBE's, manufactured
                 using wire bonding to ensure proper connections.
               </p>
             </div>
@@ -53,12 +52,10 @@ const Electrical = () => (
           <div className="columns">
             <div className="column">
               <p>
-                The motor team is doing power flow analysis based on the info
-                that we currently have to create a race plan. One of the
-                difficulties of these motors is the price point. Other motors are
-                a lot less expensive but are too heavy/inefficient for our needs. The power
-                flow analysis helps decide if switching to another motor
-                would improve our performance.
+                The motor team is tasked with determining which motors to use for the car.
+                There are several options, so the subteam must do a very indepth trade study, 
+                constantly updating it with the changing needs of the rest of the team. Weight,
+                price, power draw, output, among other things are heavily considered in the final choice.
               </p>
             </div>
             <div className="column" />
@@ -71,21 +68,11 @@ const Electrical = () => (
           <div className="columns">
             <div className="column">
               <p>
-                Currently we are working on communicating our telemetry with the
-                Battery Management System. Up to this point, we have achieved
-                communication via CAN bus, zigbee networks(one form of wireless
-                communication protocol), and retrieving voltage/current data.
-                Once we finish with the BMS system, we'll move onto transmitting
-                our data via wifi, setting up a database and creating a user
-                interface (possibly web app) where any of our team can log in
-                and view the data of the car. We will also be implementing a
-                camera to the car which will display to a small screen. We plan
-                to make an app on that screen where the driver can also view the
-                data of the car. The telemetry system is
-                vital to the vehicle because it allows us to collect 
-                data from different points of the car that we can analyze to improve performance.
-                Many issues that could arise in an
-                endurance race would not be noticed without proper telemetry systems.
+                The telemetry team works on design the systems of sesors, microcomputers, and 
+                other electrical components to read and record vital information about the car, 
+                in real time. Some important pieces of data to record are speed, position, battery
+                percentage, solar efficiency, motor output, and other things. During the race, many issues
+                could arrise however, the telemetry team helps in notifiy both the driver and the team.
               </p>
             </div>
             <div className="column" />
@@ -94,19 +81,14 @@ const Electrical = () => (
       </section>
       <section className="section">
         <div className="container">
-          <h1 className="title is-3">Solar Array</h1>
+          <h1 className="title is-3">Solar</h1>
           <div className="columns">
             <div className="column">
               <p>
-                Currently we are working on a test system to simulate power and
-                collect data on how the solar array, motor and battery will
-                interact with each other. This will allow us to understand how
-                the power will flow from the array in to the motor and battery.
-                This is important because we are not entirely sure how power
-                will flow from the battery if the motor draws more power than
-                the array is providing. The car will consist of 256 Sunpower
-                Maxeon C60 bin kp solar cells (2 sub arrays with 128 cells each
-                and sub array will be made of 7 modules).
+                The solar team is responsible for one most imporant, and characteristic, components of the car
+                the solar array! The rest of the electrical team relies on the solar array. Without them, the 
+                car would be useless. The team must choose how many solar cells the car needs, what kind of 
+                solar cells the team should use, and how they should be laid out, to optimize efficiency.
               </p>
             </div>
             <div className="column" />
