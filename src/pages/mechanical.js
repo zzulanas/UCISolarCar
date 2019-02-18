@@ -4,6 +4,11 @@ import posed from 'react-pose'
 import TeamMember from '../components/teammember'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import aero from '../../static/Mechanical/aero.png';
+import braking from '../../static/Mechanical/braking.png';
+import chassis from '../../static/Mechanical/chassis.png';
+import steering from '../../static/Mechanical/steering.png';
+import suspension from '../../static/Mechanical/suspension.png';
 
 const Container = posed.div({
   enter: { staggerChildren: 50 },
@@ -13,6 +18,15 @@ const P = posed.p({
   enter: { x: 0, opacity: 1 },
   exit: { x: 50, opacity: 0 },
 })
+
+const imagestyle ={
+  width: '80%',
+  borderRadius: '10px',
+}
+
+const rightStyle = {
+  textAlign: 'right',
+}
 
 const Electrical = () => (
   <Layout>
@@ -37,27 +51,32 @@ const Electrical = () => (
           </div>
         </section>
         <section className="section">
-          <div className="container">
+          <div className="container box">
             <h1 className="title is-3">Chassis</h1>
             <div className="columns">
               <div className="column">
-                <p>
+                <p className="content is-medium">
                   The chassis team in charge of the design of the main structural component 
                   of the vehicle. The chassis must be capable of withstanding 5g loads from all
                   directions, to keep the driver safe. The vehicle must be designed to
                   be completely street legal, while remaining lightweight and aerodynamic.
                 </p>
               </div>
-              <div className="column" />
+              <div className="column">
+                <img style={imagestyle} src={chassis}/>
+              </div>
             </div>
           </div>
         </section>
         <section className="section">
-          <div className="container">
-            <h1 className="title is-3">Aerodynamics & Composition</h1>
+          <div className="container box">
+            <h1 style={rightStyle} className="title is-3">Aerodynamics</h1>
             <div className="columns">
               <div className="column">
-                <p>
+                <img style={imagestyle} src={aero}/>
+              </div>
+              <div className="column">
+                <p className="content is-medium">
                   The aerodynamics team is responsible for the design of the
                   aerodynamic shell of the car and the ventilation systems that
                   cool the driver and battery. The subteam utilizes CAD and CFD.
@@ -67,16 +86,15 @@ const Electrical = () => (
                   area, and conform to maximum dimensions in the rulebook.
                 </p>
               </div>
-              <div className="column" />
             </div>
           </div>
         </section>
         <section className="section">
-          <div className="container">
+          <div className="container box">
             <h1 className="title is-3">Suspension</h1>
             <div className="columns">
               <div className="column">
-                <p>
+                <p className="content is-medium">
                   The suspension team is tasked with providing the driver with
                   proper contact, comfort, and control while driving. 
                   One of the most popular choices for solar car teams is the
@@ -86,16 +104,21 @@ const Electrical = () => (
                   fairly stiff.
                 </p>
               </div>
-              <div className="column" />
+              <div className="column">
+                <img style={imagestyle} src={suspension}/>
+              </div>
             </div>
           </div>
         </section>
         <section className="section">
-          <div className="container">
-            <h1 className="title is-3">Steering</h1>
+          <div className="container box">
+            <h1 style={rightStyle} className="title is-3">Steering</h1>
             <div className="columns">
               <div className="column">
-                <p>
+                <img style={imagestyle} src={steering}/>
+              </div>
+              <div className="column">
+                <p className="content is-medium">
                   The steering team is responsible for the the mechanics of the
                   turning the car. Their job is to design and test the
                   system of linkages connected to the suspension uprights,
@@ -103,23 +126,24 @@ const Electrical = () => (
                   Currently, the design follows both ackermann and bump steer theories.
                 </p>
               </div>
-              <div className="column" />
             </div>
           </div>
         </section>
         <section className="section">
-          <div className="container">
+          <div className="container box">
             <h1 className="title is-3">Human Interface</h1>
             <div className="columns">
               <div className="column">
-                <p>
+                <p className="content is-medium">
                   The human interface subteam considers how the driver interacts with the car.
                   They are responsible for the design of the dashboard mounts, steering wheel design,
                   and braking information. They take into account driver ergonomics and performance into their design.
                   As well, the subteam has to ensure the brake rotors can hold up to braking at speed.
                 </p>
               </div>
-              <div className="column" />
+              <div className="column">
+                <img style={imagestyle} src={braking}/>
+              </div>
             </div>
           </div>
         </section>
