@@ -22,7 +22,7 @@ const Electrical = () => (
         <div className="container">
           <h1 class="title">Electrical Team</h1>
           <p>
-            The electrical team is led by Gilberto Garcia, a 3rd year Electrical
+            The electrical team is led by Gilberto Garcia, a 4th year Electrical
             Engineering student. The electrical team is divided into four
             subteams: battery, motor, telemetry, and solar. Their goal is to
             design the electrical system of our car.
@@ -35,11 +35,13 @@ const Electrical = () => (
           <div className="columns">
             <div className="column">
               <p>
-                The battery team is responsible for the design of the battery pack. This
-                includes a CAD model and integration into the main electrical
-                system. The battery will serve as the car's energy storage system. We
-                are implementing 416 Li-ion Panasonic 18650 NCRBE's, manufactured
-                using wire bonding to ensure proper connections.
+                The battery team is responsible for the design of the vehicle's
+                energy storage system. For this vehicle iteration, the vehicle
+                will have an 5 kW battery composed of 416 Li ion 18650 cells.
+                Each cell will be connected using state of the art wire bonding
+                technology provided to us by our sponsor: Hesse Mechatronics. By
+                working alongside the solar array, the battery pack will help
+                the vehicle meet its energy needs.
               </p>
             </div>
             <div className="column" />
@@ -52,10 +54,11 @@ const Electrical = () => (
           <div className="columns">
             <div className="column">
               <p>
-                The motor team is tasked with determining which motors to use for the car.
-                There are several options, so the subteam must do a very indepth trade study, 
-                constantly updating it with the changing needs of the rest of the team. Weight,
-                price, power draw, output, among other things are heavily considered in the final choice.
+                Bringing it all together is the motor team. Responsible for the
+                design of the powertrain, the motor team ensures that every bit
+                of energy coming from the battery and solar array, is put to
+                good use. By all means this is a rewarding task, as it means
+                that the vehicle is prepped for its long journey.
               </p>
             </div>
             <div className="column" />
@@ -68,11 +71,14 @@ const Electrical = () => (
           <div className="columns">
             <div className="column">
               <p>
-                The telemetry team works on design the systems of sesors, microcomputers, and 
-                other electrical components to read and record vital information about the car, 
-                in real time. Some important pieces of data to record are speed, position, battery
-                percentage, solar efficiency, motor output, and other things. During the race, many issues
-                could arrise however, the telemetry team helps in notifiy both the driver and the team.
+                The telemetry team is responsible for designing the vehicle's
+                embedded systems. Like the nervous system on a human body, the
+                vehicle's embedded systems will notify the crew and driver of
+                any issue that may arise during operation. Furthermore, the
+                embedded systems will provide real time data to monitor for and
+                prevent any issue from arising in the first place. This data
+                will also be used to help improve the design of future
+                iterations of the vehicle.
               </p>
             </div>
             <div className="column" />
@@ -85,10 +91,12 @@ const Electrical = () => (
           <div className="columns">
             <div className="column">
               <p>
-                The solar team is responsible for one most imporant, and characteristic, components of the car
-                the solar array! The rest of the electrical team relies on the solar array. Without them, the 
-                car would be useless. The team must choose how many solar cells the car needs, what kind of 
-                solar cells the team should use, and how they should be laid out, to optimize efficiency.
+                The solar team is responsible for one most imporant, and
+                characteristic, components of the car the solar array! The rest
+                of the electrical team relies on the solar array. Without them,
+                the car would be useless. The team must choose how many solar
+                cells the car needs, what kind of solar cells the team should
+                use, and how they should be laid out, to optimize efficiency.
               </p>
             </div>
             <div className="column" />
