@@ -7,7 +7,7 @@
 $uci-blue: #1b3d6d;
 $uci-blue2: #4d94f8;
 $uci-grey: #a09d9a;
-$uci-cyan: #6aa2b8;
+$uci-cyan: #e6f3f7;
 $beige-light: #D0D1CD;
 $beige-lighter: #EFF0EB;
 $uci-yellow: #FFFFD5;
@@ -22,6 +22,9 @@ $link: $uci-blue;
 $link-hover: $uci-blue2;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
+$body-background-color: $uci-cyan;
+$box-radius: 10px;
+
 
 // Update some of Bulma's component variables
 $control-border-width: 2px;

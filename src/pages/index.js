@@ -52,7 +52,7 @@ const Home = ({ data }) => (
             </div>
             <div className="column is-two-thirds">
               <P>
-                <img src={team_pic} />
+                <img src={team_pic} alt="Picture of the Team" />
               </P>
             </div>
           </div>
@@ -75,7 +75,7 @@ const Home = ({ data }) => (
           <h1 className="title is-3">The Race</h1>
           <div className="columns">
             <div className="column is-two-thirds">
-              <img src={grandprix} />
+              <img src={grandprix} alt="Picture of the race" />
             </div>
             <div className="column is-one-third">
               <P className="content is-medium">
@@ -111,7 +111,7 @@ const Home = ({ data }) => (
               </P>
             </div>
             <div className="column is-two-thirds">
-              <img src={car} />
+              <img src={car} alt="Picture of the car" />
             </div>
           </div>
         </div>
