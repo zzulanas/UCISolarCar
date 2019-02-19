@@ -14,7 +14,7 @@ import emanuel from '../../static/Members/Emanuel/emanuel.jpg'
 import erin from  '../../static/Members/Erin/erin.jpg'
 import karen from '../../static/Members/Karen/Karen.jpg'
 import saing from '../../static/Members/Saing/Saing.jpg'
-import jigar from '../../static/Members/jigar/jigar.jpg'
+import jigar from '../../static/Members/jigar/jigar1.jpg'
 import paulo from '../../static/Members/Paulo/paulogarci.jpg'
 const Container = posed.div({
   enter: { staggerChildren: 50 },
