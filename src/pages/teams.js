@@ -25,6 +25,8 @@ const P = posed.p({
   exit: { x: 50, opacity: 0 },
 })
 
+const commit = "this change is poop"
+
 const Teams = () => (
   <Layout>
     <SEO title="Our Team" keywords={[`UCI`, `Solar`, `Car`]} />
