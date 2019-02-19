@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Linkedin from './linkedin'
 import Email from './email'
 import Instagram from './instagram'
+import defaultpic from '../../static/Members/default.jpg' 
 import { Link } from 'gatsby'
 
 const customAvatarStyle = {
@@ -18,7 +19,7 @@ class TeamMember extends Component {
   render() {
     return (
       <div className="box">
-        <img className="is-rounded" src={this.props.imglink} />
+        {(this.props.imglink != null && this.props.imglink != "") ? <img className="is-rounded" src={this.props.imglink} /> : <img className="is-rounded" src={defaultpic} /> }
         <h1 className="title is-4 has-text-centered">{this.props.name}</h1>
         <h1 className="subtitle is-5 has-text-centered">
           {this.props.description}
@@ -30,7 +31,7 @@ class TeamMember extends Component {
               <Linkedin userlink={this.props.userlink} />
             </span>
           ) : null}
-          {(this.props.userig != null || this.props.userig == "") ? (
+          {(this.props.userig != null && this.props.userig != "") ? (
             <span className="card-footer-item">
               <Instagram
                 className="card-footer-item"
@@ -38,7 +39,7 @@ class TeamMember extends Component {
               />
             </span>
           ) : null}
-          {(this.props.useremail != null || this.props.useremail == "") ? (
+          {(this.props.useremail != null && this.props.useremail != "") ? (
             <span className="card-footer-item">
               <Email
                 className="card-footer-item"

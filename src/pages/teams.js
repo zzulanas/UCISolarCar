@@ -14,6 +14,8 @@ import emanuel from '../../static/Members/Emanuel/emanuel.jpg'
 import erin from  '../../static/Members/Erin/erin.jpg'
 import karen from '../../static/Members/Karen/Karen.jpg'
 import saing from '../../static/Members/Saing/Saing.jpg'
+import jigar from '../../static/Members/jigar/jigar.jpg'
+import paulo from '../../static/Members/Paulo/paulogarcia.jpg'
 const Container = posed.div({
   enter: { staggerChildren: 50 },
 })
@@ -40,7 +42,7 @@ const Teams = () => (
               userlink="https://www.linkedin.com/in/lizette-nguyen-537831126/"
               useremail="lizetten@uci.edu"
               userig="https://www.instagram.com/lize_ette"
-              imglink=""
+              imglink="https://media.licdn.com/dms/image/C5603AQGcCVgVl6x24w/profile-displayphoto-shrink_800_800/0?e=1556150400&amp;v=beta&amp;t=9LIhdhno_wGQurAXkfaFOk03q7Dho8qb5H_t2mG4jk8"
             />
           </div>
           <div className="column" />
@@ -57,7 +59,7 @@ const Teams = () => (
             <TeamMember
               name="Jigar Hira"
               description="Battery Lead"
-              imglink=""
+              imglink={jigar}
             />
             <TeamMember
               name="Albert Lorenzana"
@@ -70,7 +72,7 @@ const Teams = () => (
               description="Solar Array Lead"
               useremail="riazis@uci.edu"
               userig="https://www.instagram.com/_.ssri._"
-              userlink="www.linkedin.com/in/samin-riazi-abb780179"
+              userlink="https://www.linkedin.com/in/samin-riazi-abb780179"
               imglink=""
             />
             <TeamMember
@@ -118,6 +120,7 @@ const Teams = () => (
               name="Paulo Garcia"
               description="Aerodynamics Lead"
               userlink=""
+              imglink={paulo}
             />
             <TeamMember
               name="Brandon Chan"
@@ -240,6 +243,7 @@ const Teams = () => (
               userig="https://www.instagram.com/trailokyasshrestha/"
               userlink="https://www.linkedin.com/in/trayshres"
               useremail="tshresth@uci.edu"
+              imglink="https://media.licdn.com/dms/image/C5603AQGZiSydJTRKMg/profile-displayphoto-shrink_800_800/0?e=1556150400&amp;v=beta&amp;t=wtCThIqJCbhEeCrbvhP-KGobziv5DMDqGKPUGZRiPno"
             />
             <TeamMember name="Khai Nguyen" description="Business Team" />
             <TeamMember name="Keith Tran" description="Business Team" />
