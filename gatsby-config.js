@@ -23,6 +23,10 @@ module.exports = {
     },
     'gatsby-plugin-catch-links',
     'gatsby-transformer-remark',
+    {
+      resolve: `gatsby-plugin-transition-link`,
+
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
