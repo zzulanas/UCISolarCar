@@ -13,6 +13,9 @@ export default function PostTemplate({ data }) {
   const blogStyle = {
     paddingTop: '20px',
   }
+  const htmlStyle = {
+    padding: '30px',
+  }
   
   return (
     <Layout>
@@ -20,12 +23,13 @@ export default function PostTemplate({ data }) {
       <div>
         <section className="section">
           <div className="container box">
-            <h1 className="title is-1" style={blogStyle}>
+            <h1 className="title is-1 has-text-centered" style={blogStyle}>
               {frontmatter.title}
             </h1>
-            <h2 className="subtitle is-3">{frontmatter.date}</h2>
+            <h2 className="subtitle is-3 has-text-centered">{frontmatter.date}</h2>
             <div
-              className="content is-medium"
+              style={htmlStyle}
+              className="content is-medium has-text-left"
               dangerouslySetInnerHTML={{ __html: html }}
             />
           </div>

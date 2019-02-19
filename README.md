@@ -18,3 +18,7 @@ gatsby develop
 ```
 
 Now the website should be up and running on localhost:8000
+
+## Writing blog posts
+
+If you're updating blog posts or media assets on the website, go to the website and /admin/ tab, create or login with your account and then you can post from there.
