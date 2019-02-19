@@ -4,7 +4,7 @@ import TeamMember from '../components/teammember'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import gilberto from '../../static/Members/Gilbert/gilbert.jpg'
+import gilberto from '../../static/Members/Gilbert/gilberto.jpg'
 import thomas from '../../static/Members/Thomas/thomas.jpg'
 import aaron from '../../static/Members/Aaron/aaron.jpg'
 import albert from '../../static/Members/Albert/Albert.png'
