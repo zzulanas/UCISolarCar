@@ -55,16 +55,21 @@ const Sponsors = () => (
         <h2 className="subtitle has-text-centered">Thanks so much for your support!</h2>
           <div className="container box">
             <h1 style={platStyle} className="title is-4 has-text-centered">Platinum Tier</h1>
+            <div className="section">
             <div className="columns">
             <div className="column"><a href="http://www.mscsoftware.com/"><img src={msc}/></a></div>
             <div className="column"><a href="https://www.altair.com/"><img src={altair}/></a></div>
             </div>
+            </div>
+            <div className="section">
             <h1 style={goldStyle} className="title is-4 has-text-centered">Gold Tier</h1>
             <div className="columns">
             <div className="column"></div>
-            <div className="column"><a href="https://airwolf3d.com/"><img  src={airwolf}/></a></div>
+            <div className="column"><a href="https://airwolf3d.com/"><img style={smallimage} src={airwolf}/></a></div>
             <div className="column"></div>
             </div>
+            </div>
+            <div className="section">
             <h1 style={silverStyle} className="title is-4 has-text-centered">Silver Tier</h1>
             <div className="columns">
             <div className="column"><a href="https://www.sullivansolarpower.com/"><img style={smallimage} src={sullivan}/></a></div>
@@ -72,12 +77,15 @@ const Sponsors = () => (
             <div className="column"><a href="https://www.batterysystems.net/"><img  src={battsystems}/></a></div>
             <div className="column"><a href="https://www.hesse-mechatronics.com/en/"><img  src={hesse}/></a></div>
             </div>
+            </div>
+            <div className="section">
             <h1 style={bronzeStyle} className="title is-4 has-text-centered">Bronze Tier</h1>
             <div className="columns">
             <div className="column"><a href="https://www.urop.uci.edu/"><img src={urop}/></a></div>
             <div className="column"><a href="https://www.industrialmetalsupply.com/"><img  src={IMS}/></a></div>
             <div className="column"><a href="http://www.marvintest.com/"><img  src={marvin}/></a></div>
             <div className="column"><a href="https://www.pedegoelectricbikes.com/"><img  src={pedego}/></a></div>
+            </div>
             </div>
           </div>
           <div className=" container box">

@@ -13,6 +13,7 @@ import bwong from '../../static/Members/BrandonWong/Brandon Wong.jpg'
 import emanuel from '../../static/Members/Emanuel/emanuel.jpg'
 import erin from  '../../static/Members/Erin/erin.jpg'
 import karen from '../../static/Members/Karen/Karen.jpg'
+import saing from '../../static/Members/Saing/Saing.jpg'
 const Container = posed.div({
   enter: { staggerChildren: 50 },
 })
@@ -37,7 +38,7 @@ const Teams = () => (
               name="Lizette Nguyen"
               description="Project Manager"
               userlink="https://www.linkedin.com/in/lizette-nguyen-537831126/"
-              usermail="lizetten@uci.edu"
+              useremail="lizetten@uci.edu"
               userig="https://www.instagram.com/lize_ette"
               imglink=""
             />
@@ -69,6 +70,7 @@ const Teams = () => (
               description="Solar Array Lead"
               useremail="riazis@uci.edu"
               userig="https://www.instagram.com/_.ssri._"
+              userlink="www.linkedin.com/in/samin-riazi-abb780179"
               imglink=""
             />
             <TeamMember
@@ -187,6 +189,7 @@ const Teams = () => (
               userig="https://www.instagram.com/saing.e"
               useremail="seung@uci.edu"
               blurb="I can do a back flip. I'm also a good liar, but I enjoy telling the truth"
+              imglink={saing}
             />
             <TeamMember
               name="Elena McConnell"
