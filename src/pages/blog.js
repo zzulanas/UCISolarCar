@@ -30,17 +30,19 @@ export default function Blogs({ data }) {
       <div className="blog-posts">
         <section className="section">
           <div className="container">
-            <h1 class="title" id="page-title">Blog posts</h1>
+            <h1 class="title is-1 has-text-centered" id="page-title">Blog posts</h1>
             {posts
               .filter(post => post.node.frontmatter.title.length > 0)
               .map(({ node: post }) => {
                 return (
+                  <div className="container box">
                   <div style={blogStyle} key={post.id}>
                     <Link to={post.frontmatter.path}>
                       <h1 className="title">{post.frontmatter.title}</h1>
                       <h2 className="subtitle">{post.frontmatter.date}</h2>
                     </Link>
                     <p>{post.excerpt}</p>
+                  </div>
                   </div>
                 )
               })}

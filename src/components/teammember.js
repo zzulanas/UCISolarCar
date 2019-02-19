@@ -17,7 +17,7 @@ class TeamMember extends Component {
   }
   render() {
     return (
-      <div className="card">
+      <div className="box">
         <img className="is-rounded" src={this.props.imglink} />
         <h1 className="title is-4 has-text-centered">{this.props.name}</h1>
         <h1 className="subtitle is-5 has-text-centered">
@@ -25,12 +25,12 @@ class TeamMember extends Component {
         </h1>
         <h2 className="subtitle is-6 has-text-centered">{this.props.blurb == null ? null: "\"" + this.props.blurb +"\""}</h2>
         <div className="card-footer">
-          {this.props.userlink != null ? (
+          {(this.props.userlink != null && this.props.userlink != "") ? (
             <span className="card-footer-item">
               <Linkedin userlink={this.props.userlink} />
             </span>
           ) : null}
-          {this.props.userig != null ? (
+          {(this.props.userig != null || this.props.userig == "") ? (
             <span className="card-footer-item">
               <Instagram
                 className="card-footer-item"
@@ -38,12 +38,14 @@ class TeamMember extends Component {
               />
             </span>
           ) : null}
-          <span className="card-footer-item">
-            <Email
-              className="card-footer-item"
-              userlink={this.props.useremail}
-            />
-          </span>
+          {(this.props.useremail != null || this.props.useremail == "") ? (
+            <span className="card-footer-item">
+              <Email
+                className="card-footer-item"
+                userlink={this.props.useremail}
+              />
+            </span>
+          ) : null}
         </div>
       </div>
     )
