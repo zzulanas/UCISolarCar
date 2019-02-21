@@ -1,5 +1,4 @@
 import React from 'react'
-import posed from 'react-pose'
 import TeamMember from '../components/teammember'
 
 import SEO from '../components/seo'
@@ -15,16 +14,13 @@ import karen from '../../static/Members/Karen/Karen.jpg'
 import saing from '../../static/Members/Saing/Saing.jpg'
 import jigar from '../../static/Members/jigar/jigar1.jpg'
 import paulo from '../../static/Members/Paulo/paulogarci.jpg'
-const Container = posed.div({
-  enter: { staggerChildren: 50 },
-})
 
-const P = posed.p({
-  enter: { x: 0, opacity: 1 },
-  exit: { x: 50, opacity: 0 },
-})
-
-const commit = 'this change is poop'
+/*
+TODO
+Make images load faster with graphql and gatsby <Img/>
+OR
+Host all images outside of the website
+*/
 
 const Teams = () => (
   <>
