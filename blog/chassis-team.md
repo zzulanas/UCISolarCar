@@ -1,6 +1,6 @@
 ---
 path: /blog/Chassis Team
-date: 2018-10-20T04:37:14.576Z
+date: 2018-06-18T04:37:14.576Z
 title: Chassis Team
 image: /assets/slackme.png
 ---
