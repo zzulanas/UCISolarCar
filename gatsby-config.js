@@ -54,8 +54,8 @@ module.exports = {
         name: `UCI Solar Car Website`,
         short_name: `Solar Car`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#4d94f8`,
+        theme_color: `#4d94f8`,
         display: `minimal-ui`,
         icon: `static/favicon1.png`, // This path is relative to the root of the site.
         include_favicon: true, 
