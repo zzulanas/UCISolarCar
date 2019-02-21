@@ -182,6 +182,7 @@ const Teams = () => (
               userlink="https://www.linkedin.com/in/rpatel528/"
               userig="https://www.instagram/com/Rpatel528"
               useremail=""
+              imglink="https://lh3.googleusercontent.com/CcKtPdUxIV6s1ggCm-Tbps55VHXHXAGP8Lb5uJTDLPQrHTJKxSbVDnzRkz1_Rf1FwRdoxYkK76YYvOdLG55Q-jx91vvK36OZCWgtCoazGayu1vo-gniIbUXXXYXp4AV_YNBILI883MmmPpKS8zPDhBzc5hSSv3dNWNwCRofZ53jaSJBl8XM6y839EBRMW_RP5eE4GCUD_ILzXcFxLL_0EVS3by5wHNokHI3zP39ybS4ke9jrrsCqHLmdOjIZ6raFOUjs8gvW8UJBhKhnKylHAQ8x4QGdFuhKbZClduSUdNWvAy74oamCQWtZWzIBj7facJeS-M6uOmpxik2xapeRZBmlmlbAPdHWxhnkyPcsm53C44K1CBqQp06a2UKwTqVaREnYR0VuOqOR5uZtVJhtb0WzCwG7RG3uJv4v24lxRCoDpLSfILRgOKCAsfUe45jgbKz16Fb4cQM1YrdRWrl_ckt0-qpJMqotVFYy3xQH0CnDz1HlyrHLBhNOVGDSneqJEaKls2HyA06yR6tTA8LSBywWeY-EY23-daQjLE2urx-R7WVkwfcXGkXFl8sVilffNceUIFdjE24hq7b4n-kCwMGFRAg6bCW1DREp1HGjlPC8CEHPZXx0nLiK2Putmv21yrKUs5XZ-CbeBGDPR3j8MLR-AyR0gDRlON6pHjRdXAGW9FaUFXvuAAJEEAd0XijyJgQ27wbiK_l0Fgd7PlBmlfJx=w630-h944-no"
               blurb="I’ve never eaten a frozen pizza."
             />
             <TeamMember
