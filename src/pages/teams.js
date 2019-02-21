@@ -83,7 +83,7 @@ const Teams = () => (
             <TeamMember
               name="Kelly Lue"
               description="Solar Array Team"
-              imglink=""
+              imglink="https://lh3.googleusercontent.com/5my-Qu6HNM4PpBzB0URDFxmHFmbbVZXgkx7SZK4-SHPal5GkAoX1BWFRyJZNN_RW6oYe0u8ZbQA5QXlKuCuRj2aF-R6vHT78ikAW7LGtlpbcESr7KqUo6V-4S4_IvWunv2ggpVc4jyRd5jIlSDvCoFqVz0ywNuCqTsZqKN_mpcy0OVpmLudycMQ4HiSQPCuvJLDmWDJX8TIXMlJFpah6RA2DSN9e3ph_B1yafGUsKHoWIc6pW_UDzPQsNdTCm2rhbkUlK-C2OYhukFKbEk1Nkmh8RlzEY_8dzfUvZ2_wdRtSEXZGr7iDHacXpVMa0WfIGKa5zvGpZqSTidZlKGg_S-f7JqlnmqgtdBI_qHzeFLwtWBAviZTjeqaB866Gw4TeLWzuTnz1y1mUslu8IHHUMeJJQRMtEgzwbxdkk05UaBSZgrHEnm6kEuJ7XCEKv6jHj3OZeuVG3PupAUhRopNnUHyDVmPUyLEFVjENuvKL4TPKOYHLuKrcGKAtf3SebTYwwMv8wqdbJxDOZMDi-iPdes6q4EHeQjgqhNRdUH8fCpN6xfM8wB6r7WYx0S-Bb7mcv7yx6hK0wuEo8Z8kA6QZur4eOLX_A138JI4ErjAZnoCTAIeF1d_Xv2LGxufRhtPqPCFtGRXuaXL31DJvxAxZpDedE-3Mwj93mtjJLKTrpAeJWeEybO_sLxHM0xIj2n8bhLb2M3NFgEOZFnPShOnW4Vfz=w708-h944-no"
               blurb="I can flick a frisbee better than I can throw a backhand"
             />
             <TeamMember
