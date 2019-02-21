@@ -1,0 +1,23 @@
+---
+path: /blog/New Members
+date: 2019-01-25T05:42:23.416Z
+title: New Members
+image: /assets/image-from-ios.jpg
+---
+Our team has expanded and we have a few announcements regarding our plans for the prototype and production cars.
+
+
+
+Welcome back to a new quarter and a new year!
+
+
+
+Since the previous quarter, we have recruited 13 new members to join the SolEater family, which increased our total member count to 30 (wow!). We are excited to start off with new faces and new skill sets as we begin the R&D for our production car. The new members will start from the ground-up as they research new methods, design new components, and integrate all the subsystems. A few of the new members have already begun coming up with designs for the suspension uprights and solar encapsulation materials. We are hopeful that the new cohort can improve on our previous designs to build a car that’s worthy for the American Solar Challenge. As you may or may not know, the team is also working hard to build a fully-functional prototype car, which will be the SolEaters’ very first car.
+
+
+
+We are happy to announce that we will be participating in the UCI Energy Invitational, competing alongside high school and college students to see which car can travel the farthest on $1 worth of energy. We are excited to be a part of this, especially on UCI grounds.
+
+
+
+On Friday, February 15, we will be launching our crowdfunding campaign to try and reach $15,000 for the prototype car. As we reach the end of finalizing our design, we ask that you kindly donate to our crowdfunding campaign to help us purchase the remaining components for the car. As always, SolEaters appreciates all the support in having us come this far in our journey. Thank you!
