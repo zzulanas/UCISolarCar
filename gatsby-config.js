@@ -10,21 +10,40 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/blog`,
-        name: "blogs",
-      },
+        name: `assets`,
+        path: `${__dirname}/blog/assets`,
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/static`,
-      }
+        path: `${__dirname}/blog`,
+        name: "blogs",
+      },
     },
-    'gatsby-plugin-catch-links',
-    'gatsby-transformer-remark',
+    `gatsby-plugin-catch-links`,
+    {
+    resolve:`gatsby-transformer-remark`,
+    options : {
+      plugins: [
+        {
+          resolve: `gatsby-remark-relative-images`,
+          options: {
+            name: `assets`
+          }
+        },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {},
+          },
+      ]
+    }
+    },
     {
       resolve: `gatsby-plugin-transition-link`,
+      options: {
+        layout: require.resolve(`./src/components/layout.js`)
+      }
 
     },
     `gatsby-transformer-sharp`,

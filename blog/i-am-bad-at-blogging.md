@@ -2,7 +2,7 @@
 path: /blog/imbadatblogging
 date: 2019-02-19T19:15:00.427Z
 title: I am Bad at Blogging
-image: /assets/il_340x270.1567887438_3vhc.jpg
+image: ./assets/il_340x270.1567887438_3vhc.jpg
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida pharetra risus sed lacinia. Phasellus quis magna quis arcu commodo porttitor quis at ex. Aenean ornare felis sit amet malesuada efficitur. Ut at fermentum orci. Suspendisse porta eleifend nisl, vel convallis elit sollicitudin vel. Phasellus vehicula scelerisque urna, a euismod ante ornare non. Sed mauris nulla, lacinia sit amet imperdiet at, euismod vel erat.
 

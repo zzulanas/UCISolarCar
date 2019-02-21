@@ -2,7 +2,7 @@
 path: /blog/othertestpost
 date: 2019-02-16T00:34:51.693Z
 title: Other Test Post
-image: /assets/currents_hi_res.jpg
+image: ./assets/currents_hi_res.jpg
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida pharetra risus sed lacinia. Phasellus quis magna quis arcu commodo porttitor quis at ex. Aenean ornare felis sit amet malesuada efficitur. Ut at fermentum orci. Suspendisse porta eleifend nisl, vel convallis elit sollicitudin vel. Phasellus vehicula scelerisque urna, a euismod ante ornare non. Sed mauris nulla, lacinia sit amet imperdiet at, euismod vel erat.
 

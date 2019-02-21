@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import logo from '../../static/favicon2.png'
-import TransitionLink from 'gatsby-plugin-transition-link'
-import Link from 'gatsby-plugin-transition-link'
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
+
 import posed, { PoseGroup } from 'react-pose';
+
 
 const logoStyle = {
   height: '3rem',
@@ -31,10 +32,10 @@ export default class Navbar extends Component {
     return (
       <nav className="navbar has-shadow" role="navigation">
         <div className="navbar-brand">
-          <TransitionLink className="navbar-item" to="./">
+          <AniLink cover bg="#59BF9F" className="navbar-item" to="./">
             <img style={logoStyle} src={logo} alt="UCI Solar Car" />
             <span className="title is-4">UCI Solar Car</span>
-          </TransitionLink>
+          </AniLink>
           <span className= { this.state.burgerOpen ? "navbar-burger burger is-active" : "navbar-burger burger"  } onClick={this.toggleBurger}>
             <span></span>
             <span></span>
@@ -43,24 +44,24 @@ export default class Navbar extends Component {
         </div>
         <div className={ this.state.burgerOpen ? 'navbar-menu is-active' : 'navbar-menu'} id="navMenu">
           <div className="navbar-end">
-            <TransitionLink to="/" className="navbar-item" activeStyle = {activeNavStyle}>
+            <AniLink cover bg="#f9f2b8" to="/" className="navbar-item" activeStyle = {activeNavStyle}>
               Home
-            </TransitionLink>
-            <TransitionLink  to="/blog/" className="navbar-item" activeStyle = {activeNavStyle}>
+            </AniLink>
+            <AniLink  cover bg="#f9f2b8" to="/blog/" className="navbar-item" activeStyle = {activeNavStyle}>
               Blog
-            </TransitionLink>
-            <TransitionLink to="/teams/" className="navbar-item" activeStyle = {activeNavStyle}>
+            </AniLink>
+            <AniLink cover bg="#f9f2b8" to="/teams/" className="navbar-item" activeStyle = {activeNavStyle}>
               Team
-            </TransitionLink>
-            <TransitionLink to="/electrical/" className="navbar-item" activeStyle = {activeNavStyle}>
+            </AniLink>
+            <AniLink cover bg="#f9f2b8" to="/electrical/" className="navbar-item" activeStyle = {activeNavStyle}>
               Electrical
-            </TransitionLink>
-            <TransitionLink to="/mechanical/" className="navbar-item" activeStyle = {activeNavStyle}>
+            </AniLink>
+            <AniLink cover bg="#f9f2b8"  to="/mechanical/" className="navbar-item" activeStyle = {activeNavStyle}>
               Mechanical
-            </TransitionLink>
-            <TransitionLink to="/sponsors/" className="navbar-item" activeStyle = {activeNavStyle}>
+            </AniLink>
+            <AniLink cover bg="#f9f2b8" to="/sponsors/" className="navbar-item" activeStyle = {activeNavStyle}>
               Sponsors
-            </TransitionLink>
+            </AniLink>
           </div>
         </div>
       </nav>

@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
 import posed, { PoseGroup } from 'react-pose'
-import Link from 'gatsby'
+
 
 import team_pic from '../../static/team_pic.png'
 import grandprix from '../../static/grandprix.jpg'
 import car from '../../static/car.jpg'
-import Layout from '../components/layout'
 import SEO from '../components/seo'
 
 const Section = posed.section({
@@ -28,7 +27,7 @@ const mainTitleStyle = {
 
 
 const Home = ({ data }) => (
-  <Layout>
+  <>
     <SEO title="Home" keywords={[`UCI`, `Solar`, `Car`]} />
     <div className="stack">
       <section className="section is-medium">
@@ -117,7 +116,7 @@ const Home = ({ data }) => (
         </div>
       </section>
     </div>
-  </Layout>
+  </>
 )
 /*
 export const pageQuery = graphql`

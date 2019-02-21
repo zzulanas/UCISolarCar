@@ -32,7 +32,7 @@ const center = {
   paddingLeft: '40px'
 }
 const Electrical = () => (
-  <Layout>
+  <>
     <SEO title="Electrical Team" keywords={[`UCI`, `Solar`, `Car`]} />
     <div>
       <section className="section">
@@ -130,7 +130,7 @@ const Electrical = () => (
         </div>
       </section>
     </div>
-  </Layout>
+  </>
 )
 
 export default Electrical

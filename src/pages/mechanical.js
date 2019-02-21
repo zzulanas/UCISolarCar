@@ -29,7 +29,7 @@ const rightStyle = {
 }
 
 const Electrical = () => (
-  <Layout>
+  <>
     <SEO title="Mechanical Team" keywords={[`UCI`, `Solar`, `Car`]} />
     <div>
       <Container>
@@ -149,7 +149,7 @@ const Electrical = () => (
         </section>
       </Container>
     </div>
-  </Layout>
+  </>
 )
 
 export default Electrical

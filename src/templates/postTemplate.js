@@ -18,7 +18,7 @@ export default function PostTemplate({ data }) {
   }
   
   return (
-    <Layout>
+    <>
       <SEO title={frontmatter.title} keywords={[`UCI`, `Solar`, `Car`]} />
       <div>
         <section className="section">
@@ -35,7 +35,7 @@ export default function PostTemplate({ data }) {
           </div>
         </section>
       </div>
-    </Layout>
+    </>
   )
 }
 

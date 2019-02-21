@@ -46,7 +46,7 @@ const smallimage = {
 }
 
 const Sponsors = () => (
-  <Layout>
+  <>
     <SEO title="Sponsors" keywords={[`UCI`, `Solar`, `Car`]} />
     <Container>
       <div>
@@ -100,7 +100,7 @@ const Sponsors = () => (
         </section>
       </div>
     </Container>
-  </Layout>
+  </>
 )
 
 export default Sponsors
