@@ -99,7 +99,7 @@ const Teams = () => (
             <TeamMember
               name="Wesley Bellin"
               description="Motor Lead"
-              imglink="https://lh3.googleusercontent.com/DO7whdldVhN30CNmLGiewZeeDhLqgMFeFUiMMXt2h7SZxP-eIDIEsshZZx4d-v8lE_2LPH8wOVVV8FzB2A-1UxXDICN9NqV0ETlRHM6-MzDeBPjKAMv--OoafDuGokOUhPdT0abSKuVkgynDK3BUfTlpuZt_MD4W02F4RzorfAxyk233g_QpD0GOTzPvsIAV3kU4HW1UzmK4LZKCE-VCnily-My6BbbIvWJFgMnEVyXmhizQ6tN0KCSw1gGNd-4Wxz9G1x_B8ZKXhMP8-dEXiiBPwYpodE3PKSpZKcyOiydveERQsK5pbwpcam3KceA8KLcq7P562w4D040yu5FNfAMaoiPWX7mhu_8elVjmc7Zl97QxPOc4pYun_MZB2NAr5b4bsHtl7XlleW5xXwEXZwuoTiuXajcegfLcQV6_vXuqcLYgDGhfuns8jPO6uyGk3gug984o0P-A7SZ6Dl5uWnxqmbJXLFFE22Sh8E2pg5jcSC63yk1xK8a4S1bNPt8mq6IAxqJzlfaNXoZo6Ovv3f-f8V-y1mJ_E08ZkL4pLQ9ZZkRTThBeRdlTEFottjfktMEaT6TJ_eJWo1Ntj6H02Oi6FveXhY_EnZcsquDv0boz0p4PCAPDP1YSts2NjSlTgbg2BzJzWau29p3-5bVjHlboRWJ5EDrGsmzrggJc7k0lMx6zUtE4hEcDny5GMTW51kcecefTMT3FXzjPxgO-4mc=w453-h550-no"
+              imglink="https://cdn.discordapp.com/attachments/173611666406244354/549731566041956371/image0.jpg"
             />
           </div>
           <div className="column">
