@@ -240,7 +240,6 @@ const Teams = () => (
             <TeamMember
               name="Subin Shresta"
               description="Business Lead"
-              blurb="My roommate be slaying"
               userig="https://www.instagram.com/trailokyasshrestha/"
               userlink="https://www.linkedin.com/in/trayshres"
               useremail="tshresth@uci.edu"
