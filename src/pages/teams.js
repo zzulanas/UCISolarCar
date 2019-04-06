@@ -6,7 +6,7 @@ import gilberto from '../../static/Members/Gilbert/gilberto.jpg'
 import thomas from '../../static/Members/Thomas/thomas.jpg'
 import aaron from '../../static/Members/Aaron/aaron.jpg'
 import albert from '../../static/Members/Albert/Albert.png'
-import bchan from '../../static/Members/BrandonChan/Brandon Chan.jpg'
+import bchan from '../../static/Members/BrandonChan/BrandonCHan.jpg'
 import bwong from '../../static/Members/BrandonWong/Brandon Wong.jpg'
 import emanuel from '../../static/Members/Emanuel/emanuel.jpg'
 import erin from '../../static/Members/Erin/erin.jpg'
@@ -123,8 +123,10 @@ const Teams = () => (
               name="Brandon Chan"
               description="Aerodynamics Team"
               imglink={bchan}
-              userlink=""
-              blurb="I’m Brandon Chan, Aerospace Engineer who digs model rockets"
+              userig="https://www.instagram.com/b_chanchilla/"
+              userlink="https://www.linkedin.com/in/brandonchan77"
+              useremail="chanbw1@uci.edu"
+              blurb="Water is in fact wet. Change my mind."
             />
             <TeamMember
               name="Abudllah Jawhar"
