@@ -1,5 +1,5 @@
 ---
-path: /blog/Building a Solar Panel
+path: /blog/Building_a_Solar_Panel
 date: 2017-05-01T04:18:33.543Z
 title: Building a Solar Panel
 image: /assets/img_20170528_174812716.jpg
