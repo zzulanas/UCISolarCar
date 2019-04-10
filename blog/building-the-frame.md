@@ -1,5 +1,5 @@
 ---
-path: /blog/Building the Frame
+path: /blog/Building_the_Frame
 date: 2017-06-06T04:27:42.536Z
 title: Building the Frame
 image: /assets/mock_chassis.jpg
