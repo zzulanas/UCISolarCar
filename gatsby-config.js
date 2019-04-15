@@ -21,6 +21,14 @@ module.exports = {
         name: "blogs",
       },
     },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        typekit: {
+          id: 'rxo7ojm'
+        }
+      }
+    },
     `gatsby-plugin-catch-links`,
     {
     resolve:`gatsby-transformer-remark`,

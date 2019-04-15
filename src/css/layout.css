@@ -1,6 +1,9 @@
 html, body {
   height: 100%;
   margin: 0;
+  font-family: basic-sans,sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .wrapper {
   min-height: 100%;
