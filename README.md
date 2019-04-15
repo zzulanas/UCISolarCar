@@ -6,7 +6,6 @@ Built with:
 * [GatsbyJS](https://www.gatsbyjs.org/) (Make sure you have the CLI installed ```npm install -g gatsby-cli```)
 * [Bulma](https://bulma.io/)
 * [Netlify & NetlifyCMS](https://www.netlify.com/)
-* [Animejs](https://animejs.com/)
 
 If continuing development work:
 

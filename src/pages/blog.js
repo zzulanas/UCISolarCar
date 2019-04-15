@@ -16,7 +16,6 @@ const blogStyle = {
 
 export default function Blogs({ data }) {
   const { edges: posts } = data.allMarkdownRemark
-  console.log(posts);
   return (
     <>
       <SEO title="Blog" keywords={[`UCI`, `Solar`, `Car`]} />

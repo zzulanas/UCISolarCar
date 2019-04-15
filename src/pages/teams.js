@@ -6,7 +6,7 @@ import gilberto from '../../static/Members/Gilbert/gilberto.jpg'
 import thomas from '../../static/Members/Thomas/thomas.jpg'
 import aaron from '../../static/Members/Aaron/aaron.jpg'
 import albert from '../../static/Members/Albert/Albert.png'
-import bchan from '../../static/Members/BrandonChan/Brandon Chan.jpg'
+import bchan from '../../static/Members/BrandonChan/BrandonCHan.jpg'
 import bwong from '../../static/Members/BrandonWong/Brandon Wong.jpg'
 import emanuel from '../../static/Members/Emanuel/emanuel.jpg'
 import erin from '../../static/Members/Erin/erin.jpg'
@@ -99,7 +99,7 @@ const Teams = () => (
             <TeamMember
               name="Wesley Bellin"
               description="Motor Lead"
-              imglink="https://lh3.googleusercontent.com/DO7whdldVhN30CNmLGiewZeeDhLqgMFeFUiMMXt2h7SZxP-eIDIEsshZZx4d-v8lE_2LPH8wOVVV8FzB2A-1UxXDICN9NqV0ETlRHM6-MzDeBPjKAMv--OoafDuGokOUhPdT0abSKuVkgynDK3BUfTlpuZt_MD4W02F4RzorfAxyk233g_QpD0GOTzPvsIAV3kU4HW1UzmK4LZKCE-VCnily-My6BbbIvWJFgMnEVyXmhizQ6tN0KCSw1gGNd-4Wxz9G1x_B8ZKXhMP8-dEXiiBPwYpodE3PKSpZKcyOiydveERQsK5pbwpcam3KceA8KLcq7P562w4D040yu5FNfAMaoiPWX7mhu_8elVjmc7Zl97QxPOc4pYun_MZB2NAr5b4bsHtl7XlleW5xXwEXZwuoTiuXajcegfLcQV6_vXuqcLYgDGhfuns8jPO6uyGk3gug984o0P-A7SZ6Dl5uWnxqmbJXLFFE22Sh8E2pg5jcSC63yk1xK8a4S1bNPt8mq6IAxqJzlfaNXoZo6Ovv3f-f8V-y1mJ_E08ZkL4pLQ9ZZkRTThBeRdlTEFottjfktMEaT6TJ_eJWo1Ntj6H02Oi6FveXhY_EnZcsquDv0boz0p4PCAPDP1YSts2NjSlTgbg2BzJzWau29p3-5bVjHlboRWJ5EDrGsmzrggJc7k0lMx6zUtE4hEcDny5GMTW51kcecefTMT3FXzjPxgO-4mc=w453-h550-no"
+              imglink="https://cdn.discordapp.com/attachments/173611666406244354/549731566041956371/image0.jpg"
             />
           </div>
           <div className="column">
@@ -123,8 +123,10 @@ const Teams = () => (
               name="Brandon Chan"
               description="Aerodynamics Team"
               imglink={bchan}
-              userlink=""
-              blurb="I’m Brandon Chan, Aerospace Engineer who digs model rockets"
+              userig="https://www.instagram.com/b_chanchilla/"
+              userlink="https://www.linkedin.com/in/brandonchan77"
+              useremail="chanbw1@uci.edu"
+              blurb="Water is in fact wet. Change my mind."
             />
             <TeamMember
               name="Abudllah Jawhar"
@@ -240,7 +242,6 @@ const Teams = () => (
             <TeamMember
               name="Subin Shresta"
               description="Business Lead"
-              blurb="My roommate be slaying"
               userig="https://www.instagram.com/trailokyasshrestha/"
               userlink="https://www.linkedin.com/in/trayshres"
               useremail="tshresth@uci.edu"
