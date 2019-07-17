@@ -206,15 +206,6 @@ const Teams = ({data}) => (
           blurb="I’ve never eaten a frozen pizza."
         />
         <TeamMember style={teamStyles.peopleItem}
-          name="Saingyou Eung"
-          description="Suspension Team"
-          userlink="https://www.linkedin.com/in/saingyou-eung-612ab1175/"
-          userig="https://www.instagram.com/saing.e"
-          useremail="seung@uci.edu"
-          blurb="I can do a back flip. I'm also a good liar, but I enjoy telling the truth"
-          imglink={saing}
-        />
-        <TeamMember style={teamStyles.peopleItem}
           name="Elena McConnell"
           description="Steering Lead"
           userlink="https://www.linkedin.com/in/elena-mc/"
