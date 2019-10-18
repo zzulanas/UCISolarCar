@@ -18,13 +18,12 @@ class TeamMember extends Component {
   }
   render() {
     return (
-      <div className="box" style={this.props.style}>
+      <div className="box">
         {(this.props.imglink != null && this.props.imglink != "") ? <img className="is-rounded" src={this.props.imglink} /> : <img className="is-rounded" src={defaultpic} /> }
         <h1 className="title is-4 has-text-centered">{this.props.name}</h1>
         <h1 className="subtitle is-5 has-text-centered">
           {this.props.description}
         </h1>
-        {/** 
         <h2 className="subtitle is-6 has-text-centered">{this.props.blurb == null ? null: "\"" + this.props.blurb +"\""}</h2>
         <div className="card-footer">
           {(this.props.userlink != null && this.props.userlink != "") ? (
@@ -48,9 +47,7 @@ class TeamMember extends Component {
               />
             </span>
           ) : null}
-          
         </div>
-        */}
       </div>
     )
   }
