@@ -39,7 +39,8 @@
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-helmet": "^5.2.1",
-    "react-pose": "^4.0.8"
+    "react-pose": "^4.0.8",
+    "sharp": "^0.23.1"
   },
   "keywords": [
     "gatsby"
