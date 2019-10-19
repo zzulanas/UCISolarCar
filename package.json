@@ -47,7 +47,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "node-sass --omit-source-map-url sass/mystyles.scss src/css/bulma.css; gatsby build",
+    "build": "node-sass --omit-source-map-url sass/mystyles.scss src/css/bulma.css; gatsby clean; gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
