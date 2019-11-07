@@ -41,11 +41,11 @@ const Home = ({ data }) => (
             <div className="column is-one-third">
               <Section>
                 <P className="content is-medium">
-                  Driven by the aspiration of building a solar car hi zach, a group of
+                  Driven by the aspiration of building a solar car, a group of
                   mechanical and electrical engineering students assembled in
                   late 2016, starting the SolEaters team at UCI. The team
                   officially started in March 2017 after receiving professional
-                  advisement from professors and mentors
+                  advisement from professors and mentors.
                 </P>
               </Section>
             </div>
