@@ -14,7 +14,7 @@
     "animejs": "^3.1.0",
     "bulma": "^0.7.5",
     "font-awesome": "^4.7.0",
-    "gatsby": "^2.0.76",
+    "gatsby": "^2.16.5",
     "gatsby-image": "^2.2.24",
     "gatsby-plugin-catch-links": "^2.1.12",
     "gatsby-plugin-manifest": "^2.2.20",
@@ -39,14 +39,15 @@
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-helmet": "^5.2.1",
-    "react-pose": "^4.0.8"
+    "react-pose": "^4.0.8",
+    "sharp": "^0.23.1"
   },
   "keywords": [
     "gatsby"
   ],
   "license": "MIT",
   "scripts": {
-    "build": "node-sass --omit-source-map-url sass/mystyles.scss src/css/bulma.css; gatsby build",
+    "build": "node-sass --omit-source-map-url sass/mystyles.scss src/css/bulma.css; gatsby clean; gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
