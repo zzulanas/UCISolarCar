@@ -4,14 +4,9 @@ import TeamMember from '../components/teammember'
 import SEO from '../components/seo'
 import gilberto from '../../static/Members/Gilbert/gilberto.jpg'
 import thomas from '../../static/Members/Thomas/thomas.jpg'
-import aaron from '../../static/Members/Aaron/aaron.jpg'
 import albert from '../../static/Members/Albert/Albert.png'
 import bchan from '../../static/Members/BrandonChan/BrandonCHan.jpg'
-import bwong from '../../static/Members/BrandonWong/Brandon Wong.jpg'
 import emanuel from '../../static/Members/Emanuel/emanuel.jpg'
-import erin from '../../static/Members/Erin/erin.jpg'
-import karen from '../../static/Members/Karen/Karen.jpg'
-import saing from '../../static/Members/Saing/Saing.jpg'
 import jigar from '../../static/Members/jigar/jigar1.jpg'
 import paulo from '../../static/Members/Paulo/paulogarci.jpg'
 
@@ -106,7 +101,7 @@ const Teams = () => (
             <h1 className="title is-3 has-text-centered">Mechanical</h1>
             <TeamMember
               name="Thomas Slagle"
-              description="Mechanical &amp; Suspension Lead"
+              description="Mechanical Lead"
               userlink="https://www.linkedin.com/in/thomasslagle99/"
               blurb="My beard is red but my hair isn't"
               userig="https://www.instagram.com/slagletommy/"
@@ -127,14 +122,6 @@ const Teams = () => (
               userlink="https://www.linkedin.com/in/brandonchan77"
               useremail="chanbw1@uci.edu"
               blurb="Water is in fact wet. Change my mind."
-            />
-            <TeamMember
-              name="Abudllah Jawhar"
-              description="Aerodynamics Team"
-              useremail="ajawhar@uci.edu"
-              userlink="http://www.linkedin.com/in/abdullah-jawhar-4777a6172"
-              userig="https://www.instagram.com/kb24jawhar"
-              blurb="6 eggs for breakfast. Whole chicken for lunch. 20 oz salmon for dinner"
             />
             <TeamMember
               name="Drake Baldwin"
@@ -170,17 +157,8 @@ const Teams = () => (
               blurb="Dragonboat 🛶"
             />
             <TeamMember
-              name="Brandon Wong"
-              description="Suspension Team"
-              userlink=""
-              userig=""
-              useremail=""
-              imglink={bwong}
-              blurb="I am a second year Mechanical Engineer student from San Diego who enjoys swimming and hiking"
-            />
-            <TeamMember
               name="Rahul Patel"
-              description="Suspension Team"
+              description="Suspension Lead"
               userlink="https://www.linkedin.com/in/rpatel528/"
               userig="https://www.instagram/com/Rpatel528"
               useremail=""
@@ -188,53 +166,13 @@ const Teams = () => (
               blurb="I’ve never eaten a frozen pizza."
             />
             <TeamMember
-              name="Saingyou Eung"
-              description="Suspension Team"
-              userlink="https://www.linkedin.com/in/saingyou-eung-612ab1175/"
-              userig="https://www.instagram.com/saing.e"
-              useremail="seung@uci.edu"
-              blurb="I can do a back flip. I'm also a good liar, but I enjoy telling the truth"
-              imglink={saing}
-            />
-            <TeamMember
-              name="Elena McConnell"
-              description="Steering Lead"
-              userlink="https://www.linkedin.com/in/elena-mc/"
-              imglink="https://lh3.googleusercontent.com/tuuUa2yIgxTKQCRSWgINJJ7Z-T3IQe_luoclPU0onRU9HAM9Y-1HAz4USRWhAKV9paVfkq0dS21TRCoUoOLvSmA7Zti0sNxn4DsWfBmlAxOnzDN7vXvcTA-LQUqVtiZv_0NW4ASZPJcqDb99O5aS8QjCj_aUpSMbtxkXTddlpUanb55ICIE_rX8spzTvX_CGmI1VWE9R8jXWL8WRM7xtHd8KsWWBa9eT3QvG1EF2BLhKPh87bynAcb5AcPi92aX2piWMCy3HQ5L14_6ipNfSfp5biv0DwrBWcecb_HkgDZBfi_CmiTX1s8bx4Id6Ca9tkaGqJ4ozkT71XbR9JnIJh_PS7RBoTTY_pJkDLR_BvtvgMnXIJtkoptOO3vS-7SIdOtquSHrzhSzZTHNR0LdfZIH_bgwWlMwknco9NcDMT2a3xzM6rWyA-lbm8yFqsN7hCXBVSlMqt-dotAifM17NO7rGjh0IBS9wsyZYh0xmt4mcIM4PdC7Mvt5v67-8R8AcQ_Tq2EaKJbXQHNXMWiGRl69tPa-bfVSQxAo9VAVlsdDlnvlxL3Q3wSzC3s-O_ib7YEMNNjp8whtuGGTvSH08JtkyWoRqKys4ePFPZk6BkCHChwdwYqDDyRmWmWVhkOEeff_4yK9cojdUqyKvT5_QCpkL7saex7BA82Nckb-1LDdwEPOm5U55K5Rw1Us6rS3JeiPIkJw8Z2giNtxKe_F5vO4=s806-no"
-            />
-            <TeamMember
-              name="Karen Roman"
-              description="Steering Team"
-              userlink=""
-              userig=""
-              useremail=""
-              imglink={karen}
-              blurb="I like to volunteer and Educate young girls in stem"
-            />
-            <TeamMember
-              name="Kristopher Kuan"
+              name="Aaron Villanueva"
               description="Human Interface Lead"
               userlink=""
               userig=""
               useremail=""
-            />
-            <TeamMember
-              name="Erin Mahan"
-              description="Human Interface Team"
-              userlink=""
-              userig=""
-              useremail=""
-              blurb="One of my dogs likes to be carried in my sweatshirt when we go on walks"
-              imglink={erin}
-            />
-            <TeamMember
-              name="Aaron Villanueva"
-              description="Human Interface Team"
-              userlink=""
-              userig=""
-              useremail=""
               blurb="I can improvise a jazz solo on the trumpet"
-              imglink={aaron}
+              imglink="https://lh3.googleusercontent.com/eIYXidPyMORMfGnkJLtfLnZzqos2zDPjNAwbigkIY3c9oLsbnitLhPonzMG09m7zvV3hMhGHhox6mGpHmgGbn69hW3QQysM8oggx9luFx1QkTkpWY3lIEWfxPPzwIbiQC_gZgrj14Q=w2400"
             />
           </div>
           <div className="column">
@@ -246,11 +184,6 @@ const Teams = () => (
               userlink="https://www.linkedin.com/in/trayshres"
               useremail="tshresth@uci.edu"
               imglink="https://lh3.googleusercontent.com/eAcP96YVWZ0SZroSgTELpjrbHCnxTAFTr1kFqlhxpxlw96eZM3EPIb1bjvkPg8DIKT8Edwd-zY2XABoBce-538OIYyAdhD9nRHmmpBTm56r1rNoGOuMr_osyxbUMZtsqn2X1PZgiGj5GynIDrMq7uIOOhfkIzM008snx2S0Bn04BilVkVujz7IboI-y_UPLb7FkDORcDKJWfvNaCzRpIE2fWVe0-alp_d5H6z4Zw98dwl0jVk7eyFpuxeTHXUJ42QfN8xf8bBtVJTv5SdETBo6oBB20suTkN2w1cs2CjZnEcVjcw0Z2ODAlr5Ip2T6Isugi2WU1Vk9tXX7a7py65tuDd0g8MBZntqHRMBqJB8qiLKrlllJ8tVBPgELe0s_eM_WS28sIG522XKjMzLbE5p3-gxh6vnA1VzF0Jql-ioqGkJo9g8LwyFuuX6PZLOwF4bIVQuKXDVkFXcc4q1nWsSF6DKtNgdjgKotQrcJxnjcWTJJ7gscPc42y4NIrRHhlHDHBgHMfD-DgDlVEj1ayC92NE9p-9dbmkW_h_74bmvdvZvlm3C66tj_ublKXVjYyQqxIHkE-C8YipXzvbXpwgssScLKgAZNCSP_QxR1eW8d82wF3sziA_2zx6seuSlwMa0xJYhTIAXHph50uCvV0hvFtiCgYA739n48QXKNDgn21Fu45myWH0AD06-u_wbf7fyJ_DfebRmv8on4N21VJgt9g=w563-h526-no"
-            />
-            <TeamMember
-              name="Khai Nguyen"
-              imglink="https://lh3.googleusercontent.com/1CPJ6s10H_GFO9BBjMzs0dfF6wgyzUAPP8SSDrYuNNlRW5PziOKaw4XXntqUsxUAJJv-B5SfQ94iQfli3K6ejAjBX8iw_OZ1Q5Bkd83GD-ra4i9a7yTa9P6kzBUeDPPrgbplRUcaY7Bkrr5P_eTdc4dYXsmRcJqJfJFbIuLm8mCIW1qalLHj9tsWxqpYqbYqeWoskpFzfFDd1WvK8DCrGPqN9xqxYL_-6tJ3t4MEIVCHJym07WGFGbBgl6AZY_NRtiv64HtMOd8xDVwbIli5yVEGSIc9VVrrDJVhcUv-g0QOvrTufit0utmGy6JGKUZGOp5p2PU__wEq-c_ydEGUA_X69UJFkz3DBiUhKp30q0xw7LEbvFPW2rk9Us0vfwm7KGyLh2_L-FZ7EK5iV2OLnJlaC-zI-vbtS1vTKBNm4M9kK9oTqSjiQQ5Z3Nj7r2G2YViXJRodFhfoxkJMCQgKCIzQHgovOTiXskHJH3htSicZjimgvCKXaSyzoMvtzniqdK_tl0_mSOJ2zTD5b9qV8aVxRiuf9-jrZT3b3gdiPn8I1WdlzCQ6LhcUeUABygP91QmzwXqPi8U36Foek1dsfbzbYilW8oUW1ZFHhXmTOb11W6azqfe2-NEyNpuAihX_veo09EKL2gekja-UjlmPhQiqihXTABKpqR5xoA44x-6iWJXWVktZ7TCsfDXW4p6jtDKdT_UNtJFpkVkD96MuSDc=w363-h518-no"
-              description="Business Team"
             />
             <TeamMember
               name="Keith Tran"
