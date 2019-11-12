@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import posed, { PoseGroup } from 'react-pose'
 
 
-import team_pic from '../../static/team_pic.png'
+import team_pic from '../../static/SolarCar-3.jpg'
 import grandprix from '../../static/grandprix.jpg'
 import car from '../../static/car.jpg'
 import SEO from '../components/seo'

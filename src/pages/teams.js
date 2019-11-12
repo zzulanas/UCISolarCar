@@ -27,16 +27,16 @@ const Teams = () => (
       <div className="container">
         <div className="columns">
           <div className="column" />
-          <div className="column">
+           <div className="column">
             <TeamMember
-              name="Lizette Nguyen"
-              description="Project Manager"
-              userlink="https://www.linkedin.com/in/lizette-nguyen-537831126/"
-              useremail="lizetten@uci.edu"
-              userig="https://www.instagram.com/lize_ette"
-              imglink="https://media.licdn.com/dms/image/C5603AQGcCVgVl6x24w/profile-displayphoto-shrink_800_800/0?e=1556150400&amp;v=beta&amp;t=9LIhdhno_wGQurAXkfaFOk03q7Dho8qb5H_t2mG4jk8"
-            />
-          </div>
+              name="Subin Shrestha"
+              description="Project Manager and Operations Lead"
+              userlink="https://www.linkedin.com/in/trayshres"
+              useremail="tshresth@uci.edu"
+              userig="https://www.instagram.com/trailokyasshrestha/"
+              imglink="https://bit.ly/33DyldH"
+            /> 
+          </div> 
           <div className="column" />
         </div>
         <div className="columns">
@@ -91,11 +91,6 @@ const Teams = () => (
               description="Telemetry Team"
               imglink="https://lh3.googleusercontent.com/-QWrOjfn2laRw959047ln6T8BRh2iGAy2SMjh6WfQVDUt4tj15IgWr3rH51Cv_ugH2W3BrOd8xAvPhfjvVItCGBxFAJ42TmW1Sg9x0nNdBN9W8te1YzlV6KHnPnpftjtqlL0ZB4QNvHFvKIbVDwWm4YKjdSjsj2L265Gu3dJLshB7JEwMVitrRnaGRnQGVCG9Qqsh0eREVE7i-YfkXjFJGZv2Cdrh5ZBFF3bsm2deCSvh5XjPEFW76JiF7r86TMXQWl3uu-x1F5QZjil-jNkqiZ8HHg0Z6pCbjGJ46tbEF2Fz4oqMG8ZZVR96v19mRhD882ZebartiDUXEUdFWmmP4LwcSguI35wPo16gE6CIFvVdmsgnuU1uZI5iGkXW-t6qG0sGByVaX7cIkB9-InelqOozfBm0PA5663T8ZDMW3l0nXanxtqAtRW-LzjXRmLPHW12FFXR7Z_0vCHnyQaCGfBQMOqfL-p2rTMTWUivtv2nkT2JR7DpTXbYihOTctaNwVddu4XKj1fbx7OPnD5mnjawcdw7SCu5zzfbXRfUzoZXWyusgdEYIjxEE9jXnIGFXMTee-i0lRuLQZK6UV0ibd4wFKDdLq9VbmalYOZUdK52-KnT8KgL8UBlbVSFiAwsPDLVrbvIzK8bkHiSNb_2iUq6BWCcYSPA7jPvWtvUHv_NM5vxvRVEy_agc9uEi96OJkZgUYqpotYLMmXg6gvg9DU=w340-h539-no"
             />
-            <TeamMember
-              name="Wesley Bellin"
-              description="Motor Lead"
-              imglink="https://cdn.discordapp.com/attachments/173611666406244354/549731566041956371/image0.jpg"
-            />
           </div>
           <div className="column">
             <h1 className="title is-3 has-text-centered">Mechanical</h1>
@@ -110,13 +105,13 @@ const Teams = () => (
             />
             <TeamMember
               name="Paulo Garcia"
-              description="Aerodynamics Lead"
+              description="Manufacturing Team"
               userlink=""
               imglink={paulo}
             />
             <TeamMember
               name="Brandon Chan"
-              description="Aerodynamics Team"
+              description="Aerodynamics Lead"
               imglink={bchan}
               userig="https://www.instagram.com/b_chanchilla/"
               userlink="https://www.linkedin.com/in/brandonchan77"
@@ -125,7 +120,7 @@ const Teams = () => (
             />
             <TeamMember
               name="Drake Baldwin"
-              description="Chassis Lead"
+              description="Manufacturing Team"
               userlink=""
               userig=""
               useremail=""
@@ -176,19 +171,24 @@ const Teams = () => (
             />
           </div>
           <div className="column">
-            <h1 className="title is-3 has-text-centered">Business</h1>
-            <TeamMember
-              name="Subin Shresta"
-              description="Business Lead"
-              userig="https://www.instagram.com/trailokyasshrestha/"
-              userlink="https://www.linkedin.com/in/trayshres"
-              useremail="tshresth@uci.edu"
-              imglink="https://lh3.googleusercontent.com/eAcP96YVWZ0SZroSgTELpjrbHCnxTAFTr1kFqlhxpxlw96eZM3EPIb1bjvkPg8DIKT8Edwd-zY2XABoBce-538OIYyAdhD9nRHmmpBTm56r1rNoGOuMr_osyxbUMZtsqn2X1PZgiGj5GynIDrMq7uIOOhfkIzM008snx2S0Bn04BilVkVujz7IboI-y_UPLb7FkDORcDKJWfvNaCzRpIE2fWVe0-alp_d5H6z4Zw98dwl0jVk7eyFpuxeTHXUJ42QfN8xf8bBtVJTv5SdETBo6oBB20suTkN2w1cs2CjZnEcVjcw0Z2ODAlr5Ip2T6Isugi2WU1Vk9tXX7a7py65tuDd0g8MBZntqHRMBqJB8qiLKrlllJ8tVBPgELe0s_eM_WS28sIG522XKjMzLbE5p3-gxh6vnA1VzF0Jql-ioqGkJo9g8LwyFuuX6PZLOwF4bIVQuKXDVkFXcc4q1nWsSF6DKtNgdjgKotQrcJxnjcWTJJ7gscPc42y4NIrRHhlHDHBgHMfD-DgDlVEj1ayC92NE9p-9dbmkW_h_74bmvdvZvlm3C66tj_ublKXVjYyQqxIHkE-C8YipXzvbXpwgssScLKgAZNCSP_QxR1eW8d82wF3sziA_2zx6seuSlwMa0xJYhTIAXHph50uCvV0hvFtiCgYA739n48QXKNDgn21Fu45myWH0AD06-u_wbf7fyJ_DfebRmv8on4N21VJgt9g=w563-h526-no"
-            />
+            <h1 className="title is-3 has-text-centered">Operations</h1>
             <TeamMember
               name="Keith Tran"
+              description="Operations Team"
+              userlink=""
+              userig=""
+              useremail=""
+              /*blurb=""*/
               imglink="https://lh3.googleusercontent.com/HrLsfzDBNxBMmtEEpIKetKwy5L-IDir-XSrJZfXjVmnL2dohudTMHf1HZX4KR7PaaUF46qAEwycleW5EocvYeVyGNdc3sU3wX8XsG8agTTChH5sBjBBAv21JjP1H4D9OvRV5wspZtGs4YzWDotlglScpxm-CIF-2fQMtA9L_BQRGcVoJad9WW-0uEicBY8RhTe7QF76eG57NRjiHGediZt-3oc1XPLsuOwYwe6Sr3iBH8CVvVjwevseyQyCnJc5qpsdFORt150uhU9VaKQA8xN0knfhCuQMJcoU-yTzjftykVmq9HJr7tgprzztpv_PacnO3Naycd0ULijeyjF2r8-2IOUVs0JxnUWdYfzBaBRTr0oIqKIlGhtCf98QDFq1jaX447GVnJx1LC7uh3SmVLgMucyCjrM2xhXExNOifXKgWHExmEGPNb3bULgPDVdyL2k4GJ-0itleDf6iXaKriNcMXd_4Fdu23NovG2N8AGNV7FfGwRWhur9_hfSYETs-ohcqHj1AAGYZd4mcyAHCTRK90hs8TQHMy3RlROYtpkll9Fhmrfd8UtI5Ax6XaldxJcon9MMYRUaGusZ2c4N43AYugpSg_XiFtZbAuT-gGig8zfF-cUOU-huNjiqam0JSMKgxQhHKh8SXKd2PdZgpHJXVluUlkflBtSQu2QWiICWxSYVaNgIXgQ9l56QVu5SPNZqsSRvMzJrjvkA87D73lfFY=w1417-h944-no"
-              description="Business Team"
+            />
+            <TeamMember
+              name="Colette Nguyen"
+              description="Operations Team"
+              userlink=""
+              userig=""
+              useremail=""
+              /*blurb=""*/
+              imglink=""
             />
           </div>
         </div>
