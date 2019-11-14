@@ -37,12 +37,12 @@ const Electrical = () => (
     <div>
       <section className="section">
         <div className="container">
-          <h1 className="title">Electrical Team</h1>
+          <h1 className="title is-1">Electrical Team</h1>
           <p>
-            The electrical team is led by Gilberto Garcia, a 4th year Electrical
-            Engineering student. The electrical team is divided into four
-            subteams: battery, motor, telemetry, and solar. Their goal is to
-            design the electrical system of our car.
+            The electrical team is divided into four subteams: 
+            battery, motor, telemetry, and solar. The team works
+            closely together to design and test the electrical 
+            system which will harness sun energy to power the car. 
           </p>
         </div>
       </section>

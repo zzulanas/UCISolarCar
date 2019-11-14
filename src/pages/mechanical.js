@@ -35,7 +35,7 @@ const Electrical = () => (
       <Container>
         <section className="section">
           <div className="container">
-            <h1 className="title">Mechanical Team</h1>
+            <h1 className="title is-1">Mechanical Team</h1>
             <div className="columns">
               <div className="column">
                 <p>
