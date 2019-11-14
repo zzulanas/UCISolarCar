@@ -112,25 +112,6 @@ const Electrical = () => (
         </section>
         <section className="section">
           <div className="container box">
-            <h1 style={rightStyle} className="title is-3">Steering</h1>
-            <div className="columns">
-              <div className="column">
-                <img style={imagestyle} src={steering}/>
-              </div>
-              <div className="column">
-                <p className="content is-medium">
-                  The steering team is responsible for the the mechanics of the
-                  turning the car. Their job is to design and test the
-                  system of linkages connected to the suspension uprights,
-                  that make the wheels turn upon input from the driver -- through the steering wheel.
-                  Currently, the design follows both ackermann and bump steer theories.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="section">
-          <div className="container box">
             <h1 className="title is-3">Human Interface</h1>
             <div className="columns">
               <div className="column">
