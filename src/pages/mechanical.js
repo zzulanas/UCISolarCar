@@ -39,12 +39,10 @@ const Electrical = () => (
             <div className="columns">
               <div className="column">
                 <p>
-                  The mechanical team is led by Thomas Slagle, a 2nd Year
-                  Aerospace Engineering student. The mechanical team is divided
-                  into five subdivisions: chassis, aerodynamics, suspension, steering, 
-                  and human interface. Their mechanical team's goal is to design the moving
-                  parts of an environmentally friendly car per race regulations that will
-                  compete in the American Solar Challenge.
+                  The mechanical team is composed of four subteams: chassis, 
+                  aerodynamics, suspension, and human interface. Together, 
+                  the mechanical team designs and simulates all moving parts 
+                  and works cross-functionally to ensure design integration.
                 </p>
               </div>
             </div>
