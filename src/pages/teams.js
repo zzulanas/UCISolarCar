@@ -13,12 +13,10 @@ const Teams = () => (
     <SEO title="Our Team" keywords={[`UCI`, `Solar`, `Car`]} />
     <section className="section">
       <div className="container">
-        <h1 className="title is-1 has-text-centered">Our Team</h1>
-      </div>
-      <div className="container">
         <div className="columns">
           <div className="column" />
            <div className="column">
+            <h1 className="title is-1 has-text-centered">Our Team</h1>
             <TeamMember
               name="Subin Shrestha"
               description="Project Manager and Operations Lead"
@@ -30,9 +28,10 @@ const Teams = () => (
           </div> 
           <div className="column" />
         </div>
-        <div className="columns">
-          <div className="column">
-            <h1 className="title is-3 has-text-centered">Electrical</h1>
+        <br></br>
+        <h1 className="title is-2 has-text-centered">Electrical</h1>
+        <div class="columns is-multiline is-mobile">
+          <div class="column is-one-third">
             <TeamMember
               name="Gilberto Garcia"
               description="Electrical Lead"
@@ -44,6 +43,13 @@ const Teams = () => (
               description="Battery Lead"
               imglink="https://tinyurl.com/yf2yo5wu"
             />
+            <TeamMember
+              name="Keiser Ruiz"
+              description="Telemetry Lead"
+              imglink=""
+            />
+          </div>
+          <div class="column is-one-third">
             <TeamMember
               name="Albert Lorenzana"
               description="Battery Team"
@@ -58,6 +64,8 @@ const Teams = () => (
               userlink="https://www.linkedin.com/in/samin-riazi-abb780179"
               imglink="https://tinyurl.com/ygycuanh"
             />
+          </div>
+          <div class="column is-one-third">
             <TeamMember
               name="Andrew Brown"
               description="Solar Array Team"
@@ -72,14 +80,12 @@ const Teams = () => (
               imglink="https://tinyurl.com/yeawn8uo"
               blurb="I can flick a frisbee better than I can throw a backhand"
             />
-            <TeamMember
-              name="Keiser Ruiz"
-              description="Telemetry Lead"
-              imglink=""
-            />
           </div>
-          <div className="column">
-            <h1 className="title is-3 has-text-centered">Mechanical</h1>
+        </div>
+        <br></br>
+        <h1 className="title is-2 has-text-centered">Mechanical</h1>
+        <div class="columns is-multiline is-mobile">
+          <div class="column is-one-third">
             <TeamMember
               name="Thomas Slagle"
               description="Mechanical Lead"
@@ -104,6 +110,8 @@ const Teams = () => (
               useremail="chanbw1@uci.edu"
               blurb="Water is in fact wet. Change my mind."
             />
+          </div>
+          <div class="column is-one-third">
             <TeamMember
               name="Drake Baldwin"
               description="Manufacturing Team"
@@ -119,6 +127,8 @@ const Teams = () => (
               userig=""
               useremail=""
             />
+          </div>
+          <div class="column is-one-third">
             <TeamMember
               name="Rahul Patel"
               description="Suspension Lead"
@@ -138,8 +148,11 @@ const Teams = () => (
               imglink="https://tinyurl.com/yk5eddgs"
             />
           </div>
-          <div className="column">
-            <h1 className="title is-3 has-text-centered">Operations</h1>
+        </div>
+        <br></br>
+        <h1 className="title is-2 has-text-centered">Operations</h1>
+        <div class="columns is-multiline is-mobile">
+          <div className="column is-half">
             <TeamMember
               name="Keith Tran"
               description="Operations Team"
@@ -149,6 +162,8 @@ const Teams = () => (
               /*blurb=""*/
               imglink="https://tinyurl.com/yzmbaq2k"
             />
+          </div>
+          <div className="column is-half">
             <TeamMember
               name="Colette Nguyen"
               description="Operations Team"
@@ -159,9 +174,9 @@ const Teams = () => (
               imglink=""
             />
           </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
   </>
 )
 
