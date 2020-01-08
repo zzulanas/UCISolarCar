@@ -23,7 +23,7 @@ export default function Blogs({ data }) {
         <section className="section">
           <div className="container">
             <h1 className="title is-1 has-text-centered" id="page-title">
-              Blog posts
+              Blog Posts
             </h1>
             {posts
               .filter(post => post.node.frontmatter.title.length > 0)
