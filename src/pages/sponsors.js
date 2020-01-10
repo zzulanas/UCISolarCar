@@ -14,7 +14,8 @@ import marvin from '../../static/MarvinTestSolutionsNewLogo.jpg'
 import pedego from '../../static/pedego-logo.svg'
 import sullivan from '../../static/Sullivan-Solar-Logo.jpeg'
 import urop from '../../static/urop.png'
-import sponsorpacket from '../../static/Energy_Invitational_Canva_2.0.pdf'
+import vusar from '../../static/vusar.jpg'
+import sponsorpacket from '../../static/Sponsorship Packet.pdf'
 
 const Container = posed.div({
   enter: { staggerChildren: 50 },
@@ -51,8 +52,9 @@ const Sponsors = () => (
     <Container>
       <div>
         <section className="section">
-        <h1 className="title has-text-centered">Sponsors</h1>
-        <h2 className="subtitle has-text-centered">Thanks so much for your support!</h2>
+        <h1 className="title is-1 has-text-centered">Sponsors</h1>
+        <br></br>
+        <h2 className="subtitle is-4 has-text-centered">Thank you so much for your support!</h2>
           <div className="container box">
             <h1 style={platStyle} className="title is-4 has-text-centered">Platinum Tier</h1>
             <div className="section">
@@ -82,9 +84,10 @@ const Sponsors = () => (
             <h1 style={bronzeStyle} className="title is-4 has-text-centered">Bronze Tier</h1>
             <div className="columns">
             <div className="column"><a href="https://www.urop.uci.edu/"><img src={urop}/></a></div>
-            <div className="column"><a href="https://www.industrialmetalsupply.com/"><img  src={IMS}/></a></div>
-            <div className="column"><a href="http://www.marvintest.com/"><img  src={marvin}/></a></div>
-            <div className="column"><a href="https://www.pedegoelectricbikes.com/"><img  src={pedego}/></a></div>
+            <div className="column"><a href="https://www.industrialmetalsupply.com/"><img src={IMS}/></a></div>
+            <div className="column"><a href="http://www.marvintest.com/"><img src={marvin}/></a></div>
+            <div className="column"><a href="https://www.pedegoelectricbikes.com/"><img src={pedego}/></a></div>
+            <div className="column"><a href="https://www.vusar.co/"><img src={vusar}></img></a></div>
             </div>
             </div>
           </div>
@@ -92,8 +95,7 @@ const Sponsors = () => (
           <h1 className="title has-text-centered">Interested in Sponsoring us?</h1>
           <div className="columns">
           <div className="column"/>
-          <div className="column"><a download href={sponsorpacket} className="button is-success">Download our sponsorship packet!</a></div>
-            <div className="column"><a href="https://zotfunder.give.uci.edu/project/10863" className="button is-info">Check out our ZotFunder!</a></div>
+          <div className="column is-centered"><a download href={sponsorpacket} className="button is-success">Download our sponsorship packet!</a></div>
             <div className="column"/>
             </div>
           </div>
