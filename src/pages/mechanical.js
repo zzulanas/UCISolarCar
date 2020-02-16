@@ -39,7 +39,7 @@ const Electrical = () => (
               <div className="column">
                 <p>
                   The Mechanical team is composed of four subteams: Chassis, 
-                  Aerodynamics, Suspension, and Human Unterface. Together, 
+                  Aerodynamics, Suspension, and Human Interface. Together, 
                   the mechanical team designs, simulates, and manufactures  
                   the moving parts of the car, being sure to ensure design integration.
                 </p>

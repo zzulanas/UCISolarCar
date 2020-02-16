@@ -15,6 +15,7 @@ import pedego from '../../static/pedego-logo.svg'
 import sullivan from '../../static/Sullivan-Solar-Logo.jpeg'
 import urop from '../../static/urop.png'
 import vusar from '../../static/vusar.jpg'
+import hyperx from '../../static/hyperx.jpg'
 import sponsorpacket from '../../static/Sponsorship Packet.pdf'
 
 const Container = posed.div({
@@ -88,6 +89,7 @@ const Sponsors = () => (
             <div className="column"><a href="http://www.marvintest.com/"><img src={marvin}/></a></div>
             <div className="column"><a href="https://www.pedegoelectricbikes.com/"><img src={pedego}/></a></div>
             <div className="column"><a href="https://www.vusar.co/"><img src={vusar}></img></a></div>
+            <div className="column"><a href="https://www.hyperxgaming.com/us"><img src={hyperx}></img></a></div>
             </div>
             </div>
           </div>
