@@ -1,5 +1,5 @@
 ---
-path: Big News and Updates!
+path: /blogs/big_news_and_updates
 date: 2020-02-19T01:22:58.329Z
 title: Big News and Updates!
 image: /assets/screen-shot-2020-02-13-at-2.20.07-pm.png
