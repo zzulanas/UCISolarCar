@@ -149,7 +149,7 @@ const Teams = () => (
           <div class="column is-one-third">
             <TeamMember
               name="Andrew Brown"
-              description="Solar Array Team"
+              description="Solar Array Lead"
               useremail="andreb1@uci.edu"
               userlink="http://www.linkedin.com/in/andreb1"
               imglink="https://tinyurl.com/yflaw7wo"
