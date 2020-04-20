@@ -75,12 +75,12 @@ const Teams = () => (
             />
           </div>
           <div class="column is-one-third">
-            <TeamMember
-              name="Samin Riazi"
+          <TeamMember
+              name="Andrew Brown"
               description="Solar Array Lead"
-              useremail="riazis@uci.edu"
-              userlink="https://www.linkedin.com/in/samin-riazi-abb780179"
-              imglink="https://tinyurl.com/ygycuanh"
+              useremail="andreb1@uci.edu"
+              userlink="http://www.linkedin.com/in/andreb1"
+              imglink="https://tinyurl.com/yflaw7wo"
             />
             <TeamMember
               name="Brandon Chan"
@@ -148,13 +148,6 @@ const Teams = () => (
           </div>
           <div class="column is-one-third">
             <TeamMember
-              name="Andrew Brown"
-              description="Solar Array Lead"
-              useremail="andreb1@uci.edu"
-              userlink="http://www.linkedin.com/in/andreb1"
-              imglink="https://tinyurl.com/yflaw7wo"
-            />
-            <TeamMember
               name="Kelly Lue"
               description="Solar Array Team"
               userlink="https://www.linkedin.com/in/kelly-lue-988447155"
@@ -169,18 +162,18 @@ const Teams = () => (
         <div class="columns is-multiline is-mobile">
           <div class="column is-one-third">
             <TeamMember
-              name="Paulo Garcia"
-              description="Manufacturing Team"
-              useremail="paulocg@uci.edu"
-              userlink="https://www.linkedin.com/in/paulo-garcia-2448b0196"
-              imglink="https://tinyurl.com/yfwstxod"
+              name="Matthew Stewart"
+              description="Suspension Team"
+              useremail="mtstewar@uci.edu"
+              userlink=""
+              imglink=""
             />
             <TeamMember
-              name="Drake Baldwin"
-              description="Manufacturing Team"
-              userlink="https://www.linkedin.com/in/drake-baldwin-20a739a6"
-              useremail="ddbaldwi@uci.edu"
-              imglink="https://tinyurl.com/yffuusad"
+              name="Jason Lin"
+              description="Suspension Team"
+              userlink=""
+              useremail="jasol28@uci.edu"
+              imglink=""
             />
           </div>
           <div class="column is-one-third">
