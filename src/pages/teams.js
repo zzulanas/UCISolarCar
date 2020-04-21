@@ -30,16 +30,6 @@ const Teams = () => (
         <div class="columns is-multiline is-mobile is-centered">
           <div class="column is-one-third">
             <TeamMember
-              name="Gilberto Garcia"
-              description="Electrical Lead"
-              userlink="https://www.linkedin.com/in/gilberto-garcia-56aa7513a?trk=pub-pbmap"
-              useremail="gilbermg@uci.edu"
-              imglink="https://tinyurl.com/yz9zsksk"
-              blurb="Leg day is my favorite gym day."
-            />
-          </div>
-          <div class="column is-one-third">
-            <TeamMember
               name="Thomas Slagle"
               description="Mechanical Lead"
               userlink="https://www.linkedin.com/in/thomasslagle99/"
@@ -48,15 +38,35 @@ const Teams = () => (
               imglink="https://tinyurl.com/yjbzzn5f"
             />
           </div>
+          <div class="column is-one-third">
+            <TeamMember
+              name="Kelly Lue"
+              description="Electrical Co-Lead"
+              userlink="https://www.linkedin.com/in/kelly-lue-988447155"
+              useremail="lueka@uci.edu"
+              imglink="https://tinyurl.com/yeawn8uo"
+              blurb="I can flick a frisbee better than I can throw a backhand."
+            />
+          </div>
+          <div class="column is-one-third">
+          <TeamMember
+              name="Albert Lorenzana"
+              description="Electrical Co-Lead"
+              userlink="https://www.linkedin.com/in/albert-lorenzana-a0954b130"
+              useremail="lorenza2@uci.edu"
+              imglink="https://tinyurl.com/yg2oyge4"
+              blurb="A biomedical engineering student interested in mechatronics, MEMS, sustainable energy, and machine learning. Enjoys playing guitar on his free time :)"
+            />
+          </div>
         </div>
         <div class="columns is-multiline is-mobile">
           <div class="column is-one-third">
-            <TeamMember
-              name="Keiser Ruiz"
-              description="Telemetry Lead"
-              userlink="https://www.linkedin.com/in/keiser-ruiz"
-              useremail="ruizkf@uci.edu"
-              imglink=""
+          <TeamMember
+              name="Nathan Trudeau"
+              description="Telemetry Team"
+              userlink="https://www.linkedin.com/in/nathan-trudeau-571863187/"
+              useremail="ntrudeau@uci.edu"
+              imglink="https://tinyurl.com/yg7d4q47"
             />
             <TeamMember
               name="Benjamin Lam"
@@ -92,13 +102,14 @@ const Teams = () => (
             />
           </div>
           <div class="column is-one-third">
-            <TeamMember
-              name="Kevin Kuntjoro"
+          <TeamMember
+              name="Christian Mast"
               description="Motor Lead"
-              userlink="https://www.linkedin.com/in/kevinkuntjoro"
-              useremail="kkuntjor@uci.edu"
-              imglink=""
-            /> 
+              userlink="https://www.linkedin.com/in/mst1010"
+              useremail="cmast@uci.edu"
+              imglink="https://tinyurl.com/yz8f3u5u"
+              blurb="Catch me playing and watching soccer in my free time!"
+            />
             <TeamMember
               name="Aaron Villanueva"
               description="Human Interface Lead"
@@ -118,42 +129,46 @@ const Teams = () => (
               description="Battery Team"
               userlink="https://www.linkedin.com/in/jigarhira"
               useremail="hiraj@uci.edu"
-              imglink="https://tinyurl.com/yf2yo5wu"
+              imglink="https://tinyurl.com/yczlau2x"
             />
             <TeamMember
-              name="Nathan Trudeau"
+              name="Henry Gip"
               description="Telemetry Team"
               userlink="https://www.linkedin.com/in/nathan-trudeau-571863187/"
-              useremail="ntrudeau@uci.edu"
-              imglink="https://tinyurl.com/yg7d4q47"
+              useremail=""
+              imglink=""
             />
           </div>
           <div class="column is-one-third">
             <TeamMember
-              name="Albert Lorenzana"
-              description="Battery Team"
-              userlink="https://www.linkedin.com/in/albert-lorenzana-a0954b130"
-              useremail="lorenza2@uci.edu"
-              imglink="https://tinyurl.com/yg2oyge4"
-              blurb="A biomedical engineering student interested in mechatronics, MEMS, sustainable energy, and machine learning. Enjoys playing guitar on his free time :)"
+              name="Alexis Infante"
+              description="Solar Team"
+              userlink=""
+              useremail=""
+              imglink=""
             />
             <TeamMember
-              name="Christian Mast"
+              name="Andres Cervantes"
+              description="Electrical Team"
+              userlink=""
+              useremail="andresc6@uci.edu"
+              imglink=""
+            />
+          </div>
+          <div class="column is-one-third">
+            <TeamMember
+              name="Amanda Tan"
+              description="Solar Team"
+              userlink=""
+              useremail="amandajt@uci.edu"
+              imglink=""
+            />
+            <TeamMember
+              name="April Soares"
               description="Motor Team"
-              userlink="https://www.linkedin.com/in/mst1010"
-              useremail="cmast@uci.edu"
-              imglink="https://tinyurl.com/yz8f3u5u"
-              blurb="Catch me playing and watching soccer in my free time!"
-            />
-          </div>
-          <div class="column is-one-third">
-            <TeamMember
-              name="Kelly Lue"
-              description="Solar Array Team"
-              userlink="https://www.linkedin.com/in/kelly-lue-988447155"
-              useremail="lueka@uci.edu"
-              imglink="https://tinyurl.com/yeawn8uo"
-              blurb="I can flick a frisbee better than I can throw a backhand."
+              userlink=""
+              useremail="aprilns@uci.edu"
+              imglink=""
             />
           </div>
         </div>
@@ -165,8 +180,8 @@ const Teams = () => (
               name="Matthew Stewart"
               description="Suspension Team"
               useremail="mtstewar@uci.edu"
-              userlink=""
-              imglink=""
+              userlink="https://www.linkedin.com/in/matthew-stewart68"
+              imglink="https://tinyurl.com/y7j2nd2r"
             />
             <TeamMember
               name="Jason Lin"
@@ -200,6 +215,13 @@ const Teams = () => (
               userlink="https://www.linkedin.com/in/mohammad-asem-alkhatib"
               useremail="malkhat1@uci.edu"
               imglink="https://tinyurl.com/yjfspf43"
+            />
+            <TeamMember
+              name="Kevin Dang"
+              description="Human Interface Team"
+              userlink="https://www.linkedin.com/in/kevindang223/"
+              useremail="dangkh1@uci.edu"
+              imglink="https://tinyurl.com/y7gn9lmr"
             />
           </div>
         </div>
