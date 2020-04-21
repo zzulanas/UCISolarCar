@@ -73,7 +73,7 @@ const Teams = () => (
               description="Battery Lead"
               userlink="https://www.linkedin.com/in/benjamin-lam-70a80216b"
               useremail="bxlam@uci.edu"
-              imglink=""
+              imglink="https://tinyurl.com/yd6km5ah"
             />
             <TeamMember
               name="Rahul Patel"
@@ -134,9 +134,9 @@ const Teams = () => (
             <TeamMember
               name="Henry Gip"
               description="Telemetry Team"
-              userlink="https://www.linkedin.com/in/nathan-trudeau-571863187/"
-              useremail=""
-              imglink=""
+              userlink="https://www.linkedin.com/in/henry--gip/"
+              useremail="hgip@uci.edu"
+              imglink="https://tinyurl.com/y7trfyrj"
             />
           </div>
           <div class="column is-one-third">
@@ -149,10 +149,10 @@ const Teams = () => (
             />
             <TeamMember
               name="Andres Cervantes"
-              description="Electrical Team"
-              userlink=""
+              description="Low-Voltage Team"
+              userlink="https://www.linkedin.com/in/andres-cervantes-2ba1801a3/"
               useremail="andresc6@uci.edu"
-              imglink=""
+              imglink="https://tinyurl.com/ydgxc578"
             />
           </div>
           <div class="column is-one-third">
