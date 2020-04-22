@@ -141,33 +141,33 @@ const Teams = () => (
           </div>
           <div class="column is-one-third">
             <TeamMember
-              name="Alexis Infante"
-              description="Solar Team"
-              userlink=""
-              useremail=""
-              imglink=""
-            />
-            <TeamMember
               name="Andres Cervantes"
               description="Low-Voltage Team"
               userlink="https://www.linkedin.com/in/andres-cervantes-2ba1801a3/"
               useremail="andresc6@uci.edu"
               imglink="https://tinyurl.com/ydgxc578"
             />
+            <TeamMember
+              name="Alexis Infante"
+              description="Solar Team"
+              userlink=""
+              useremail="asinfant@uci.edu"
+              imglink=""
+            />
           </div>
           <div class="column is-one-third">
+            <TeamMember
+              name="April Soares"
+              description="Motor Team"
+              userlink="https://uci.joinhandshake.com/users/6449824"
+              useremail="aprilns@uci.edu"
+              imglink="https://tinyurl.com/y89g8ql5"
+            />
             <TeamMember
               name="Amanda Tan"
               description="Solar Team"
               userlink=""
               useremail="amandajt@uci.edu"
-              imglink=""
-            />
-            <TeamMember
-              name="April Soares"
-              description="Motor Team"
-              userlink=""
-              useremail="aprilns@uci.edu"
               imglink=""
             />
           </div>
