@@ -100,6 +100,13 @@ const Teams = () => (
               useremail="chanbw1@uci.edu"
               blurb="Water is in fact wet. Change my mind."
             />
+            <TeamMember
+              name="Jessica Li"
+              description="Chassis Lead"
+              userlink="https://www.linkedin.com/in/jessicali21/"
+              useremail="jessl22@uci.edu"
+              imglink="https://tinyurl.com/y8p5sdug"
+            />
           </div>
           <div class="column is-one-third">
           <TeamMember
@@ -190,6 +197,13 @@ const Teams = () => (
               useremail="jasol28@uci.edu"
               imglink=""
             />
+            <TeamMember
+              name="Kevin Dang"
+              description="Human Interface Team"
+              userlink="https://www.linkedin.com/in/kevindang223/"
+              useremail="dangkh1@uci.edu"
+              imglink="https://tinyurl.com/y7gn9lmr"
+            />
           </div>
           <div class="column is-one-third">
             <TeamMember
@@ -210,18 +224,18 @@ const Teams = () => (
           </div>
           <div class="column is-one-third">
             <TeamMember
+              name="Marissa Lee"
+              description="Chassis Team"
+              userlink="http://linkedin.com/in/marissa-lee-89997518a"
+              useremail="marissnl@uci.edu"
+              imglink="https://tinyurl.com/y79qf7k9"
+            />
+            <TeamMember
               name="Asem Alkhatib"
               description="Chassis Team"
               userlink="https://www.linkedin.com/in/mohammad-asem-alkhatib"
               useremail="malkhat1@uci.edu"
               imglink="https://tinyurl.com/yjfspf43"
-            />
-            <TeamMember
-              name="Kevin Dang"
-              description="Human Interface Team"
-              userlink="https://www.linkedin.com/in/kevindang223/"
-              useremail="dangkh1@uci.edu"
-              imglink="https://tinyurl.com/y7gn9lmr"
             />
           </div>
         </div>
