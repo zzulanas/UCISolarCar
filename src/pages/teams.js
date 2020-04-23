@@ -165,10 +165,10 @@ const Teams = () => (
             />
             <TeamMember
               name="Amanda Tan"
-              description="Solar Team"
-              userlink=""
+              description="Solar/High Voltage Team"
+              userlink="https://www.linkedin.com/in/amanda-tan-3a3bb9172/"
               useremail="amandajt@uci.edu"
-              imglink=""
+              imglink="https://tinyurl.com/ybzjwkst"
             />
           </div>
         </div>
