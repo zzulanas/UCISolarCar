@@ -157,9 +157,9 @@ const Teams = () => (
             <TeamMember
               name="Alexis Infante"
               description="Solar Team"
-              userlink=""
+              userlink="https://www.linkedin.com/in/alexis-infante/"
               useremail="asinfant@uci.edu"
-              imglink=""
+              imglink="https://tinyurl.com/yboyuwl6"
             />
           </div>
           <div class="column is-one-third">
